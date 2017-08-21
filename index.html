@@ -4,9 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Главная страница</title>
 <link href="css/style.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
-
-        <script type="text/javascript" src="jscroller-0.4.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
 
 </head>
 <body>
@@ -90,12 +88,96 @@
 			</div>
 			
 		</section>
-		<section class="news"></section>
-		<section class="advertising"></section>
-		<section class="contacts"></section>
+		<section class="news">
+			<div class="news__headerTitle">
+				<p>наши новости  ↓</p>
+			</div>
+			<div class="news__newsGrid">
+				<div class="news_newsGrid_newsblock1">
+					<div class="news_newsGrid_newsblock_date"></div>
+					<div class="news_newsGrid_newsblock_title"></div>
+				</div>
+				<div class="news_newsGrid_newsblock2">
+					<div class="news_newsGrid_newsblock_date"></div>
+					<div class="news_newsGrid_newsblock_title"></div>
+				</div>
+				<div class="news_newsGrid_newsblock3">
+					<div class="news_newsGrid_newsblock_date"></div>
+					<div class="news_newsGrid_newsblock_title"></div>
+				</div>
+				<div class="news_newsGrid_newsblock4">
+					<div class="news_newsGrid_newsblock_date"></div>
+					<div class="news_newsGrid_newsblock_title"></div>
+				</div>
+				<div class="news_newsGrid_newsblock5">
+					<div class="news_newsGrid_newsblock_date"></div>
+					<div class="news_newsGrid_newsblock_title"></div>
+				</div>
+				<div class="news_newsGrid_newsblock6">
+					<div class="news_newsGrid_newsblock_date"></div>
+					<div class="news_newsGrid_newsblock_title"></div>
+				</div>
+			</div>
+
+			<a href="#"><div class="news__buttonMoreNews">
+				<div class="news__buttonMoreNews_redline"></div>
+				<p class="news__buttonMoreNews_button">больше новостей</p>
+			</div></a>
+		</section>
+		<section class="adv">
+			<div class="adv__headerTitle">
+				<p>реклама<br> на «радио100»</p>
+			</div>
+			<div class="adv__buttonDwPrice">
+				<div class="adv__buttonDwPrice__redline"></div>
+				<p class="adv__buttonDwPrice_button">подробнее</p>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="contacts__headerTitle">
+				<p>наши контакты  ↓</p>
+			</div>
+			<div id="contacts__googleMap">
+				<script>
+					// initMap() - функция инициализации карты
+					function initMap() {
+					    // Координаты центра на карте. Широта: 56.2928515, Долгота: 43.7866641
+					    var centerLatLng = new google.maps.LatLng(55.179127, 61.391076);
+					 
+					    // Обязательные опции с которыми будет проинициализированна карта
+					    var mapOptions = {
+					        center: centerLatLng, // Координаты центра мы берем из переменной centerLatLng
+					        zoom: 15               // Зум по умолчанию. Возможные значения от 0 до 21
+					    };
+
+
+					 
+					    // Создаем карту внутри элемента #map
+					    var map = new google.maps.Map(document.getElementById("contacts__googleMap"), mapOptions);
+					     var marker = new google.maps.Marker({
+    position: centerLatLng,
+    icon: {
+			url: "images/contacts_googleMap_logo.png",
+			scaledSize: new google.maps.Size(112, 75)
+		},
+    map: map,
+    title: 'Hello World!'
+  });
+
+					}
+					 
+					// Ждем полной загрузки страницы, после этого запускаем initMap()
+					google.maps.event.addDomListener(window, "load", initMap);
+
+
+
+
+				</script>
+			</div>
+		</section>
 	</main>
-	<footer>
-		<div class="logo"></div>
+	<footer >
+		<a href="http://flexites.org" target="_blank"><div class="flexitesLogo"></div></a>
 	</footer>
 
 </body>
