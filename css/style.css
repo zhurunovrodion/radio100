@@ -691,7 +691,11 @@ a{
 .adv{
 	width: 100%;
 	height: 788px;
-	background: url("../images/adv_bg.png") no-repeat center top;
+	background: url("../images/adv_bg.png") no-repeat;
+	 -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 	display: flex;
 	flex-direction:column;
 	justify-content: flex-start;
@@ -771,24 +775,43 @@ a{
 
 .contacts__headerTitle{
 	font-family: OpenSans;
-	font-size: 22pt;
+	font-size: 23pt;
 	text-transform: uppercase;
 	color:#dd161d;
 	margin-top: 52px;
 	margin-left: 29.3%;
 	letter-spacing: 4px;
 	//margin-bottom: 66px;
+	position: relative;
+	width: 355px;
 }
+
+
+.contacts__headerTitle_info{
+	position: absolute;
+	top:125px;
+	width: 333px;
+	height: 535px;
+	background-color: #000000;
+	z-index: 999;
+}
+
+.contacts__headerTitle_info_text{
+	padding:40px;
+}
+
 #contacts__googleMap {
 	width: 100%;
 	height: 803px;
 //	 -webkit-filter: grayscale(100%);
  // -moz-filter: grayscale(100%);
  // -ms-filter: grayscale(100%);
-//  -o-filter: grayscale(100%);
+  //-o-filter: grayscale(100%);
  // filter: grayscale(100%);
-//  filter: gray; /* IE 6-9 */
+ // filter: gray; /* IE 6-9 */
 }
+
+
 
 /********contacts end*******/
 
