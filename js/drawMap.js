@@ -1,5 +1,5 @@
 var map;
-var nnovgorod = new google.maps.LatLng(55.179127, 61.391076);
+var nnovgorod = new google.maps.LatLng(55.182063, 61.389415);
 var MY_MAPTYPE_ID = 'mystyle';
 function initialize() {
 var stylez =  [
@@ -138,7 +138,7 @@ var stylez =  [
 
 marker = new google.maps.Marker({
     map:map,
-    position: new google.maps.LatLng(55.179127, 61.391076),
+    position: new google.maps.LatLng(55.178656, 61.393351),
     icon: 'images/contacts_googleMap_logo.png'
   });
 

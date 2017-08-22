@@ -493,6 +493,7 @@ a{
 	color:#dd161d;
 	margin-top: 78px;
 	margin-left: 11%;
+	font-weight: bold;
 }
 
 .contests__info__text{
@@ -500,9 +501,12 @@ a{
 	font-size: 12pt;
 	color:#323232;
 	line-height: 29px;
-	max-width: 517px;
+	max-width: 538px;
 	align-self:center;
-	margin:17px;
+	margin-left:25px;
+	margin-right: 25px;
+	margin-top: 53px;
+	margin-bottom: 53px;
 }
 
 .contests__info__buttonShowMore{
@@ -565,12 +569,13 @@ a{
 	margin-left: 29.3%;
 	letter-spacing: 4px;
 	margin-bottom: 66px;
+	font-weight: bold;
 }
 
 .news__newsGrid{
 	width: 1001px;
 	height: 667px;
-	background-color: #075577;
+	//background-color: #075577;
 	align-self:flex-end;
 	margin-right: 12%;
 	display: flex;
@@ -774,31 +779,78 @@ a{
 }
 
 .contacts__headerTitle{
-	font-family: OpenSans;
-	font-size: 23pt;
-	text-transform: uppercase;
-	color:#dd161d;
+	//font-family: OpenSans;
+	//font-size: 23pt;
+	//text-transform: uppercase;
+	//color:#dd161d;
 	margin-top: 52px;
 	margin-left: 29.3%;
-	letter-spacing: 4px;
+	//letter-spacing: 4px;
 	//margin-bottom: 66px;
 	position: relative;
 	width: 355px;
 }
 
-
+.contacts__headerTitle>p{
+	font-family: OpenSans;
+	font-size: 23pt;
+	text-transform: uppercase;
+	color:#dd161d;
+	letter-spacing: 4px;
+}
 .contacts__headerTitle_info{
 	position: absolute;
 	top:125px;
 	width: 333px;
 	height: 535px;
-	background-color: #000000;
+	//background-color: #000000;
 	z-index: 999;
 }
 
 .contacts__headerTitle_info_text{
-	padding:40px;
+	padding-left:45px;
+	padding-top: 31px;
+	padding-bottom: 45px;
+	padding-right: 10px;
+	background-color:rgba( 	255,0, 0,.8);
 }
+
+.contacts__headerTitle_info_text_title{
+	font-family: OpenSans;
+	font-size: 12pt;
+	line-height: 29px;
+	color:#ffffff;
+}
+
+.contacts__headerTitle_info_text_title_adv{
+	font-family: OpenSans;
+	font-size: 13.2pt;
+	text-transform: uppercase;
+	line-height: 29px;
+	color:#ffffff;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.contacts__headerTitle_info_text_whois{
+
+	font-family: OpenSans;
+	font-size: 10.1pt;
+	line-height: 24px;
+	color:#ffffff;
+}
+
+.contacts__headerTitle_info_owners{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 138px;
+}
+.contacts__headerTitle_info_owners img{
+	margin-left:50px; 
+}
+
 
 #contacts__googleMap {
 	width: 100%;
