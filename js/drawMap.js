@@ -131,7 +131,7 @@ var stylez =  [
   map = new google.maps.Map(document.getElementById("contacts__googleMap"),
       mapOptions);
   var styledMapOptions = {
-    name: "Мой стиль"
+    name: "Radio100"
   };
   var jayzMapType = new google.maps.StyledMapType(stylez, styledMapOptions);
   map.mapTypes.set(MY_MAPTYPE_ID, jayzMapType);
