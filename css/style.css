@@ -191,16 +191,18 @@ a{
 	min-height: 147px;
 	z-index: 1;
 	padding: 45px 40px 0 45px;
-	box-sizing: border-box;
-	opacity: 0.5;	
+	box-sizing: border-box;	
+	transition: all 0.7s;	
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content.state-opened{
 	visibility: visible;
+	opacity: 1;
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content.state-closed{
 	visibility: hidden;
+	opacity: 0;
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content__list{
