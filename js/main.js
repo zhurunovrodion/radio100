@@ -18,12 +18,14 @@ function onMainMenuButtonClick(e){
 	if($menuButton.is('.state-closed')){
 		$menuButton.removeClass('state-closed');
 		$menuButton.addClass('state-opened');
+		$menuButton.addClass('active');
 		
 		$menuElement.removeClass('state-closed');
 		$menuElement.addClass('state-opened');
 	}else{
 		$menuButton.addClass('state-closed');
 		$menuButton.removeClass('state-opened');
+		$menuButton.removeClass('active');
 
 		$menuElement.addClass('state-closed');
 		$menuElement.removeClass('state-opened');
