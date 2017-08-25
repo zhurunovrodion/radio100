@@ -174,13 +174,54 @@ a{
 	min-width: 420px;
 	
 	margin-left: 40px;
+	position: relative;
+	
+
+}
+
+
+.navigationMenu__menuLine__menu__mainMenu__content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: #ff0000;
+	display: flex;
+	flex-direction: row;
+	width: calc(100% + 145px);
+	min-height: 147px;
+	z-index: 999;
+	padding: 45px 40px;
+	box-sizing: border-box;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content__list{
+	display: flex;
+	font-family: OpenSans;
+	color:#ffffff;
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 15px;
+	flex-wrap: wrap;
+	width: 55%;
+	justify-content: flex-start;
+	align-content:  flex-start;
+	//flex-basis: 200px;
+	//flex-flow: row wrap;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content__list li:not(:last-child)::after{
+	content: '|';
+	margin-left: 22px;
+	margin-right: 22px;
+	
 }
 
 .navigationMenu__menuLine__menu__mainMenu__button{
 	width: 40px;
 	height: 39px;
-	 transition: 0.3s;
-	
+	transition: 0.3s;
+	cursor: pointer;
 	position: relative;
 	float: left;
 }
@@ -224,14 +265,7 @@ a{
 
 
 
-.navigationMenu__menuLine__menu__rightMenu li:nth-child(2)::before{
-	content: '|';
-	margin-left: 22px;
-	margin-right: 22px;
-	
-}
-
-.navigationMenu__menuLine__menu__rightMenu li:nth-child(3)::before{
+.navigationMenu__menuLine__menu__rightMenu li:not(:first-child)::before{
 	content: '|';
 	margin-left: 22px;
 	margin-right: 22px;
