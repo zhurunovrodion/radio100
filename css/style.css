@@ -26,8 +26,6 @@ a{
 }
 
 
-
-
 /********Navigation begin*******/
 .navigationMenu__menuLine{
 	display: flex;
@@ -186,14 +184,15 @@ a{
 	left: 0;
 	right: 0;
 	top: 0;
-	background-color: #ff0000;
+	background-color: #dd161d;
 	display: flex;
 	flex-direction: row;
 	width: calc(100% + 145px);
 	min-height: 147px;
-	z-index: 999;
-	padding: 45px 40px;
+	z-index: 1;
+	padding: 45px 40px 0 45px;
 	box-sizing: border-box;
+	opacity: 0.5;
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content__list{
@@ -212,7 +211,8 @@ a{
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content__list li{
-	padding: 0 0 10px 0;	
+	padding: 0 0 30px 0;
+
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content__list li:not(:last-child)::after{
@@ -220,6 +220,42 @@ a{
 	margin-left: 22px;
 	margin-right: 22px;
 	
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content__cancelButton{
+	width: 40px;
+	height: 40px;
+	background-color: #ffffff;
+	cursor: pointer;
+	color:#dd161d;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content__cancelButton::before{
+	content: "X";
+}
+
+.navigationMenu__menuLine__menu__mainMenu.state-opened{
+	z-index: 2;
+}
+
+.state-closed .navigationMenu__menuLine__menu__mainMenu__button{
+	display: block;
+}
+
+.state-closed .navigationMenu__menuLine__menu__mainMenu__content__cancelButton{
+	display: none;
+}
+
+.state-opened .navigationMenu__menuLine__menu__mainMenu__button{
+	display: none;
+}
+
+.state-opened .navigationMenu__menuLine__menu__mainMenu__content__cancelButton{
+	display: block;
 }
 
 .navigationMenu__menuLine__menu__mainMenu__button{
