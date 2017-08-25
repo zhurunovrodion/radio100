@@ -192,7 +192,15 @@ a{
 	z-index: 1;
 	padding: 45px 40px 0 45px;
 	box-sizing: border-box;
-	opacity: 0.5;
+	opacity: 0.5;	
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content.state-opened{
+	visibility: visible;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content.state-closed{
+	visibility: hidden;
 }
 
 .navigationMenu__menuLine__menu__mainMenu__content__list{
@@ -267,6 +275,10 @@ a{
 	float: left;
 }
 
+
+.navigationMenu__menuLine__menu__mainMenu__button *{
+	user-select: none;
+}
 
 .navigationMenu__menuLine__menu__mainMenu__button:hover{
 	background-color:rgba(196,42,37,.7);
