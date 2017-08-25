@@ -1,7 +1,7 @@
 var map;
 var nnovgorod = new google.maps.LatLng(55.182063, 61.389415);
 var MY_MAPTYPE_ID = 'mystyle';
-function initialize() {
+function initializeMap() {
 var stylez =  [
     {
         "featureType": "landscape",
