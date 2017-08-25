@@ -290,6 +290,10 @@ a{
 
 }
 
+.navigationMenu__menuLine__menu__mainMenu.state-opened{
+	background: white;
+}
+
 .navigationMenu__menuLine__menu__rightMenu{
 	font-family: OpenSans;
 	color:#ffffff;

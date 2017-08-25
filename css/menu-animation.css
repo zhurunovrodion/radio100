@@ -30,7 +30,7 @@
     left: 8px;
     right: 8px;
     height: 3px;
-    background: white;
+    background-color: white;
     transform: translateY(-50%);
 }
 
@@ -41,8 +41,14 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #fff;
+  background-color: white;
   content: "";
+}
+
+.active.cmn-toggle-switch span,
+.active.cmn-toggle-switch span::before,
+.active.cmn-toggle-switch span::after{
+   background-color: #dd161d;
 }
 
 .cmn-toggle-switch span::before {
