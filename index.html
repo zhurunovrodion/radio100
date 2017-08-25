@@ -2,12 +2,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
 <title>Главная страница</title>
 <link href="css/style.css" type="text/css" rel="stylesheet">
+<script   src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
 <script src="js/drawMap.js"></script>
+<!-- <script src="js/slider.js"></script> -->
+<script>
+	$(document).ready(initialize)
+</script>
 </head>
-<body onload="initialize()">
+<body>
 	<header>
 		<nav class="navigationMenu">
 			<div class="navigationMenu__menuLine">
@@ -68,6 +74,7 @@
 	</header>
 	<main>
 		<section class="photoSlider">
+		
 			<div class="photoSlider__background"></div>
 		</section>
 		<section class="contests">
@@ -127,9 +134,10 @@
 							<p>09/07.2017</p>
 					</div>
 					<div class="news_newsGrid_newsblock_title">
-						<p>Россия будет и дальше 
-						наращивать военный 
-						потенциал армии и флота</p>
+						<p>На Южном Урале из 
+							аварийного жилья 
+							переселили 12,5 тысяч 
+							человек</p>
 					</div>
 				</div>
 				<div class="news_newsGrid_newsblock5">
