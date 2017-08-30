@@ -22,3 +22,14 @@ src: url('../fonts/MyriadProRegular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
+
+
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url(http://allfont.ru/cache/fonts/open-sans-bold_5231939d0cda13eb1fd5685f7264eb76.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/open-sans-bold_5231939d0cda13eb1fd5685f7264eb76.ttf) format('truetype');
+}
