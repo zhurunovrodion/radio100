@@ -1,5 +1,5 @@
 var map;
-var nnovgorod = new google.maps.LatLng(55.182063, 61.389415);
+var radio100 = new google.maps.LatLng(55.182063, 61.389415);
 var MY_MAPTYPE_ID = 'mystyle';
 function initializeMap() {
 var stylez =  [
@@ -122,7 +122,7 @@ var stylez =  [
 ];
   var mapOptions = {
     zoom: 15,
-    center: nnovgorod,
+    center: radio100,
     mapTypeControlOptions: {
        mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
     },

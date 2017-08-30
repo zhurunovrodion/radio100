@@ -5,29 +5,7 @@ function initialize(){
 
 	addMainMenuButtonHandlers();
 	//('navigationMenu__menuLine__menu__mainMenu__content')
+
+	addPlayListMenuButtonHandlers();
 }
 
-function addMainMenuButtonHandlers(){
-	$('.navigationMenu__menuLine__menu__mainMenu').on('click', onMainMenuButtonClick)
-}
-
-function onMainMenuButtonClick(e){
-	var $menuButton = $(e.currentTarget);
-	var $menuElement = $('.navigationMenu__menuLine__menu__mainMenu__content');	
-
-	if($menuButton.is('.state-closed')){
-		$menuButton.removeClass('state-closed');
-		$menuButton.addClass('state-opened');
-		$menuButton.addClass('active');
-		
-		$menuElement.removeClass('state-closed');
-		$menuElement.addClass('state-opened');
-	}else{
-		$menuButton.addClass('state-closed');
-		$menuButton.removeClass('state-opened');
-		$menuButton.removeClass('active');
-
-		$menuElement.addClass('state-closed');
-		$menuElement.removeClass('state-opened');
-	}
-}

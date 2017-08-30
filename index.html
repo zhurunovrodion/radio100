@@ -7,9 +7,29 @@
 <link href="css/style.css" type="text/css" rel="stylesheet">
 <script   src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
-<script src="js/drawMap.js"></script>
-<script src="js/main.js"></script>
 
+<link href="css/datepicker.css" rel="stylesheet" type="text/css">
+<link href="css/timedropper.css" rel="stylesheet">
+<script src="js/datepicker.min.js"></script>
+<script src="js/drawMap.js"></script>
+<script src="js/menuSwitcher.js"></script>
+<script src="js/main.js"></script>
+<script src="js/timedropper.js"></script>
+<script src="js/masked-input.js"></script>
+<script type="text/javascript">
+		jQuery(function($) {
+
+	$.mask.definitions['H']='[012]';
+$.mask.definitions['M']='[012345]';
+
+	$('#eITDbegintime').mask('H9:M9');
+
+	$('#eITDendtime').mask('H9:M9');
+
+	});
+
+
+</script>
 </head>
 <body>
 
@@ -52,9 +72,26 @@
 					</div>
 					
 						<div class="navigationMenu__menuLine__centralPanel__playListMenu">
-							<a href="#" class="navigationMenu__menuLine__centralPanel__playListMenu__title">посмотреть плейлист эфира</a>
-							<div class="navigationMenu__menuLine__centralPanel__playListMenu_content">
-								<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm"></div>
+							<div class="navigationMenu__menuLine__centralPanel__playListMenu__title state-closed">
+								<span class="navigationMenu__menuLine__centralPanel__playListMenu__title__text">
+									посмотреть плейлист эфира
+								</span>
+							</div>
+							<div class="navigationMenu__menuLine__centralPanel__playListMenu_content state-closed">
+								
+									<form method="post" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm" >
+										<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm__wrapper">
+											<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks">
+												<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">Дата:<input type="text" class="datepicker-here navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_dmy"></p>
+												<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">от<input id="eITDbegintime" type="text" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm"/><p>
+												<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">до<input id="eITDendtime" type="text"  class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm"/></p>
+											</div>
+											<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks">	
+												<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton">ПОКАЗАТЬ</p>
+											</div>
+										</div>
+									</form>
+								
 								<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList"></div>
 							</div>
 						</div>

@@ -1,20 +1,7 @@
 @import url(reset.css);
 @import url(menu-animation.css);
-@font-face{
-
-font-family: 'Electron';
-src: url('../fonts/Electron.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face{
-
-font-family: 'OpenSans';
-src: url('../fonts/opensans.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
+@import url(animations.css);
+@import url(fonts.css);
 
 
 //.wrapper{
@@ -414,21 +401,114 @@ a{
 	//margin-left: 225px;
 	//margin-top: 11px;
 	text-decoration: none;
-	height: 40px;
-	
+	height: 40px;	
 	width: 100%;
 	
+	white-space: nowrap;
+	user-select: none;
+	-moz-user-select: none;
 	
 	background-color:rgba( 	255,0, 0,.6);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: all 0.5s;
+	//-webkit-transition: width 0.3s;
+	//transition: width 0.3s;
 	margin: 0 auto;
+	cursor: pointer;
 }
 
 
-.navigationMenu__menuLine__centralPanel__playListMenu__title:hover{ 
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm{
+	width: 100%;
+	display: flex;
+	//justify-content: center;
+	min-height: 117px;
+	//align-items: center;
+
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm__wrapper{
+	display: flex;
+	justify-content: ;
+	margin-left: 5px;
+	margin-right: 5px;
+	max-width: 462px;
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks{
+	display: flex;
+	min-width: 349px;
+}
+
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text{
+	color:#ffffff;
+	font-family: OpenSans;
+	font-size: 17px;
+	text-transform: lowercase;
+}
+
+
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_dmy{	
+		width: 95px;
+		margin-left: 10px;
+		background: url(../images/nobg.png);
+		color:#ffffff;
+		
+		font-size: 18px;
+		font-family: OpenSans;
+		border: none;
+		border-bottom: 1px solid #ffffff;
+		padding-bottom: 8px;
+		margin-right: 23px;
+
+}
+
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm{	
+		width: 50px;
+		margin-left: 4px;
+		background: url(../images/nobg.png);
+		color:#ffffff;
+		margin-right: 15px;
+		font-size: 18px;
+		font-family: OpenSans;
+		border: none;
+		border-bottom: 1px solid #ffffff;
+		padding-bottom: 8px;
+
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks{
+	display: flex;
+	align-items: center;
+}
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton{
+	font-size: 14px;
+	font-family: OpenSans;
+	font-weight: bold;
+	color: #ffffff;
+	cursor: pointer;
+	transition: all 0.5s;
+	margin-left: 10px;
+}
+
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton:hover{
+	font-size: 14px;
+	font-family: OpenSans;
+	font-weight: bold;
+	color: #ff1200;
+	cursor: pointer;
+		
+
+}
+
+
+
+//.navigationMenu__menuLine__centralPanel__playListMenu__title:hover{ 
 	color:#ffffff;
 	font-family: OpenSans;
 	//margin-left: 225px;
@@ -450,14 +530,35 @@ a{
 	position: absolute;
 	box-sizing: border-box;
 	width: 100%;
-	min-height: 180px;
+	min-height: 400px;
 	background-color:rgba(0,0,0,.7);
 	padding: 
 	left:0;
 	top:43px;
 	border-top: 1px solid #ffffff;
-
+	transition: all 0.5s;
+	animation-duration: 0.5s;
 }
+
+.navigationMenu__menuLine__centralPanel__playListMenu__title__text{
+ animation-duration: 0.5s;
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu__title.state-opened{
+	z-index: 0;
+	background: white;
+}
+.navigationMenu__menuLine__centralPanel__playListMenu_content.state-opened{
+	visibility: visible;
+	opacity: 1;
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content.state-closed{
+	visibility: hidden;
+	opacity: 0;
+}
+
+
 
 
 
@@ -1075,3 +1176,11 @@ footer{
 	margin-right:44px;
 }
 /********footer    end*******/
+
+
+
+.wide{
+	
+	z-index: 0;
+	background-color: #ffffff;
+}
