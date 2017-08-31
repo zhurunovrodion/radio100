@@ -44,3 +44,7 @@ content: "";
 blockquote, q {
 quotes: "" "";
 } 
+
+a{
+	text-decoration: none;
+}

@@ -7,5 +7,7 @@ function initialize(){
 	//('navigationMenu__menuLine__menu__mainMenu__content')
 
 	addPlayListMenuButtonHandlers();
+
+	deleteNewsTitleOnHover();
 }
 

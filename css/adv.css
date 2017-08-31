@@ -1,0 +1,111 @@
+
+/********adv    begin*******/
+.adv{
+	width: 100%;
+	height: 788px;
+	background: url("../images/adv_bg.png") no-repeat;
+	 -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: nowrap;
+}
+.adv__headerTitle{
+	font-family: OpenSans;
+	font-size: 43pt;
+	letter-spacing: 3px;
+	color:#ffffff;
+	margin-top: 86px; 
+	text-transform: uppercase;
+	margin-left: 29.3% ;
+	font-weight: bold;
+	width:  500px;
+}
+.adv__buttonDwPrice{
+	display: flex;
+	margin-top: 51px;
+	margin-bottom: 2px;
+}
+
+
+.adv__buttonDwPrice__redline{
+	border-bottom: 1px solid #ff1300;
+	max-width: 1127px;
+	width: 70%;
+}
+
+
+.adv__buttonDwPrice_button{
+	font-family: OpenSans;
+	font-size: 12pt;
+	background-color:#ff1300;
+	min-width: 190px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.5s;
+	margin-top: 10px;
+}
+
+
+
+.adv__buttonDwPrice_button:hover{
+	font-family: OpenSans;
+	font-size: 12pt;
+	background-color:#4f4f4f;
+	min-width: 190px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	
+	margin-top: 10px;
+}
+
+
+@media (max-width: 1500px){
+	.adv__buttonDwPrice__redline{
+	border-bottom: 1px solid #ff1300;
+	max-width: 1127px;
+	width: 40%;
+
+
+
+	
+}
+
+
+
+}
+
+
+
+@media  (max-width: 1292px) {
+
+.adv__headerTitle{
+	font-family: OpenSans;
+	font-size: 43pt;
+	letter-spacing: 3px;
+	color:#ffffff;
+	margin-top: 86px; 
+	text-transform: uppercase;
+	margin-left: 8% ;
+	font-weight: bold;
+	width:  500px;
+}
+
+	
+}
+
+/********adv    end*******/

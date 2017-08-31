@@ -1,0 +1,213 @@
+/********contest begin*******/
+.contests{
+	width: 100%;
+	//height: 435px;
+	//background-color: #fa5311;
+	display: flex;
+	position: relative;
+}
+
+
+.contests__image-left{
+	flex:1.14;
+	//background-color: #44fa05;
+	background: url(../images/constests__image.png) no-repeat center top;
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     //height: 435px;
+}
+
+
+
+.contests__info-right{
+	flex:1;
+	background-color: #f6f6f6;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+
+.contests__info__title{
+	font-family: OpenSans;
+	font-size: 19pt;
+	text-transform: uppercase;
+	color:#dd161d;
+	margin-top: 78px;
+	margin-left: 11%;
+	font-weight: bold;
+}
+
+.contests__info__text{
+	font-family: OpenSans;
+	font-size: 12pt;
+	color:#323232;
+	line-height: 29px;
+	max-width: 538px;
+	align-self:center;
+	margin-left:25px;
+	margin-right: 25px;
+	margin-top: 53px;
+	margin-bottom: 53px;
+}
+
+.contests__info__buttonShowMore{
+	font-family: OpenSans;
+	font-size: 12pt;
+	background-color:#ff1300;
+	width: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 11%;
+	margin-top: 10px;
+	transition: all 0.5s;
+}
+
+.contests__info__buttonShowMore:hover{
+	font-family: OpenSans;
+	font-size: 12pt;
+	background-color:#4f4f4f;
+	width: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 11%;
+	margin-top: 10px;
+	transition: all 0.5s;
+	
+	
+}
+
+
+.contests__headerTitle{
+	position: absolute;
+	min-width: 616px;
+	height: 79px;
+	color:#ffffff;
+	font-family: OpenSans;
+	font-size: 22pt;
+	text-transform: uppercase;
+	background-color:rgba( 	255,0, 0,.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-59px;
+	margin-left: 26.5%;
+	padding-right: 40px;
+	letter-spacing: 4px;
+	font-weight: bold;
+
+}
+
+
+
+@media  (max-width: 1292px) {
+
+.contests__headerTitle{
+	position: absolute;
+	min-width: 616px;
+	height: 79px;
+	color:#ffffff;
+	font-family: OpenSans;
+	font-size: 22pt;
+	text-transform: uppercase;
+	background-color:rgba( 	255,0, 0,.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-59px;
+	margin-left: 4.5%;
+	padding-right: 40px;
+	letter-spacing: 4px;
+	font-weight: bold;
+
+
+
+
+}
+
+
+
+
+.contests__image-left{
+	flex:1.14;
+	//background-color: #44fa05;
+	background: url(../images/constests__image.png) no-repeat -433px top;
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     //height: 435px;
+}
+
+
+.contests__info-right{
+	flex:1.8;
+	background-color: #f6f6f6;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.contests__info__title{
+	font-family: OpenSans;
+	font-size: 19pt;
+	text-transform: uppercase;
+	color:#dd161d;
+	margin-top: 78px;
+	margin-left: 8%;
+	font-weight: bold;
+}
+
+}
+
+
+@media  (max-width: 1289px) {
+
+		.contests__image-left{
+	flex:1.14;
+	//background-color: #44fa05;
+	background: url(../images/constests__image.png) no-repeat -445px top;
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     //height: 435px;
+}
+
+}
+
+
+@media  (max-width: 1160px) {
+
+		.contests__image-left{
+	flex:1.14;
+	//background-color: #44fa05;
+	background: url(../images/constests__image.png) no-repeat -459px top;
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     //height: 435px;
+}
+
+}
+
+/********contest end*******/

@@ -33,3 +33,13 @@ font-style: normal;
         url(http://allfont.ru/cache/fonts/open-sans-bold_5231939d0cda13eb1fd5685f7264eb76.woff) format('woff'),
         url(http://allfont.ru/cache/fonts/open-sans-bold_5231939d0cda13eb1fd5685f7264eb76.ttf) format('truetype');
 }
+
+
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+      font-weight: 700;
+    src: url('../fonts/Open Sans Semibold.ttf') format('truetype');
+}
+
+

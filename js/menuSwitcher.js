@@ -2,7 +2,27 @@ function addMainMenuButtonHandlers(){
 	$('.navigationMenu__menuLine__menu__mainMenu').on('click', onMainMenuButtonClick)
 }
 
+/*function deleteNewsTitleOnHover(){
+	$('.news_newsGrid_newsblock').hover(function(e){
+		var $newsBlock = $(e.currentTarget);
+	$newsBlock_text=$newsBlock.find('.news_newsGrid_newsblock_title')
+	$newsBlock_text.hide();
+	})
+}*/
 
+function deleteNewsTitleOnHover(){
+$('.news_newsGrid_newsblock').hover (
+function(){$(this).children('.news_newsGrid_newsblock_title').fadeOut(300);},
+function(){$(this).children('.news_newsGrid_newsblock_title').fadeIn(300)}
+);
+}
+/*
+function onMainNewsGridNewsBlockHover(e){
+
+	var $newsBlock = $(e.currentTarget);
+	$newsBlock.find('.news_newsGrid_newsblock_title').hide();
+	
+}*/
 
 function sleep(ms)
  {

@@ -3,13 +3,13 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width">
+	<!-- <meta name="viewport" content="width=device-width"> -->
 	<title>Главная страница</title>
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
 	<link href="css/datepicker.css" rel="stylesheet" type="text/css">
-	<link href="css/timedropper.css" rel="stylesheet">
+	
 	<script src="js/datepicker.min.js"></script>
 	<script src="js/drawMap.js"></script>
 	<script src="js/menuSwitcher.js"></script>
@@ -45,9 +45,7 @@
 					<div class="navigationMenu__menuLine__centralPanel__logo"></div>
 					<div class="navigationMenu__menuLine__centralPanel__player">
 						<div class="navigationMenu__menuLine__centralPanel__player__fmFrequency">
-							<p class="navigationMenu__menuLine__centralPanel__player__fmFrequency__digits ">100.00</p>
-							<p class="navigationMenu__menuLine__centralPanel__player__fmFrequency__fm ">FM</p>
-							<p class="navigationMenu__menuLine__centralPanel__player__fmFrequency__mhz ">Mhz</p>
+							<img src="images/fm.png">
 						</div>
 						<div class="navigationMenu__menuLine__centralPanel__player__playButton">
 							<a href="#"></a>
@@ -102,16 +100,16 @@
 											<p  class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName">  Marcela Mangabeira - Poker Face</p>
 										</li>
 										<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:16</p>
-											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
+											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:16</p>
+											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
 										</li>
 										<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:21</p>
-											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
+											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:21</p>
+											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
 										</li>
 										<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
 											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:23</p>
-											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName" class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName">  TITIYO - COME ALONG</p>
+											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName">  TITIYO - COME ALONG</p>
 										</li>
 										<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
 											<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:26</p>
@@ -137,25 +135,27 @@
 						</div>
 					</div>
 				</div>
-				<div class="navigationMenu__menuLine__menu">
-					<div class="navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>
-					<div class="navigationMenu__menuLine__menu__rightMenu">
+				<div class="navigationMenu__menuLine__menu__wrapper">
+					<div class="navigationMenu__menuLine__menu">
+						<div class="navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>
+						<div class="navigationMenu__menuLine__menu__rightMenu">
+							<ul>
+								<li><a href="#">Реклама</a></li>
+								<li><a href="#">Конкурсы</a></li>
+								<li><a href="#">Музыка</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="navigationMenu__menuLine__socialNetworks">
 						<ul>
-							<li><a href="#">Реклама</a></li>
-							<li><a href="#">Конкурсы</a></li>
-							<li><a href="#">Музыка</a></li>
+							<a href="#">
+								<li class="navigationMenu__menuLine__socialNetworks__vk"></li>
+							</a>
+							<a href="#">
+								<li class="navigationMenu__menuLine__socialNetworks__59play224"></li>
+							</a>
 						</ul>
 					</div>
-				</div>
-				<div class="navigationMenu__menuLine__socialNetworks">
-					<ul>
-						<a href="#">
-							<li class="navigationMenu__menuLine__socialNetworks__vk"></li>
-						</a>
-						<a href="#">
-							<li class="navigationMenu__menuLine__socialNetworks__59play224"></li>
-						</a>
-					</ul>
 				</div>
 			</div>
 		</nav>
@@ -188,39 +188,141 @@
 				<p>наши новости ↓</p>
 			</div>
 			<div class="news__newsGrid">
-				<div class="news_newsGrid_newsblock1">
+
+				<div class="news_newsGrid_newsblock">
+					<img class="news_newsGrid_newsblock" width="332" height="332" src="images/news_newsGrid_newsblock1.png">
 					<div class="news_newsGrid_newsblock_date">
 						<p>12/07.2017</p>
 					</div>
 					<div class="news_newsGrid_newsblock_title">
 						<p>В Мадриде открылось кафе для сна</p>
 					</div>
+					<div class="news_newsGrid_newsblock_hover animated fadeIn">
+
+						<div class="news_newsGrid_newsblock_date_hover">
+							<p>12/07.2017</p>
+						</div>
+						<div class="news_newsGrid_newsblock__title__hover">
+							<p>Россия будет и дальше 
+								наращивать военный 
+								потенциал армии и флота
+							</p>
+						</div>
+						<div class="news_newsGrid_newsblock__shortText__hover">
+							<p>Россия будет и дальше наращивать 
+								военный потенциал армии и флота 
+								для защиты от потенциальных 
+								агрессоров, а также обеспечивать 
+								сбалансированную, системную 
+								работу всех родов и видов войск...
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="news_newsGrid_newsblock2">
+				
+				<div class="news_newsGrid_newsblock">
+					<img class="news_newsGrid_newsblock" width="332" height="332" src="images/news_newsGrid_newsblock2.png">
 					<div class="news_newsGrid_newsblock_date">
 						<p>11/07.2017</p>
 					</div>
 					<div class="news_newsGrid_newsblock_title">
 						<p>На Южном Урале из аварийного жилья переселили 12,5 тысяч человек</p>
 					</div>
+						<div class="news_newsGrid_newsblock_hover animated fadeIn">
+
+						<div class="news_newsGrid_newsblock_date_hover">
+							<p>12/07.2017</p>
+						</div>
+						<div class="news_newsGrid_newsblock__title__hover">
+							<p>Россия будет и дальше 
+								наращивать военный 
+								потенциал армии и флота
+							</p>
+						</div>
+						<div class="news_newsGrid_newsblock__shortText__hover">
+							<p>Россия будет и дальше наращивать 
+								военный потенциал армии и флота 
+								для защиты от потенциальных 
+								агрессоров, а также обеспечивать 
+								сбалансированную, системную 
+								работу всех родов и видов войск...
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="news_newsGrid_newsblock3">
+				<div class="news_newsGrid_newsblock">
+					<img class="news_newsGrid_newsblock" width="332" height="332" src="images/news_newsGrid_newsblock3.png">
 					<div class="news_newsGrid_newsblock_date">
 						<p>10/07.2017</p>
 					</div>
 					<div class="news_newsGrid_newsblock_title">
 						<p>За перебои с электричеством или водой можно требовать возмещения морального вреда</p>
 					</div>
+					<div class="news_newsGrid_newsblock_hover animated fadeIn">
+
+						<div class="news_newsGrid_newsblock_date_hover">
+							<p>12/07.2017</p>
+						</div>
+						<div class="news_newsGrid_newsblock__title__hover">
+							<p>Россия будет и дальше 
+								наращивать военный 
+								потенциал армии и флота
+							</p>
+						</div>
+						<div class="news_newsGrid_newsblock__shortText__hover">
+							<p>Россия будет и дальше наращивать 
+								военный потенциал армии и флота 
+								для защиты от потенциальных 
+								агрессоров, а также обеспечивать 
+								сбалансированную, системную 
+								работу всех родов и видов войск...
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="news_newsGrid_newsblock4">
+				<div class="news_newsGrid_newsblock_noBg">
 					<div class="news_newsGrid_newsblock_date">
 						<p>09/07.2017</p>
 					</div>
-					<div class="news_newsGrid_newsblock_title">
-						<p>На Южном Урале из аварийного жилья переселили 12,5 тысяч человек</p>
+					<div class="news_newsGrid_newsblock__noBg_title">
+						<p>Россия будет и дальше 
+							наращивать военный 
+							потенциал армии и флота
+						</p>
+					</div>
+					<div class="news_newsGrid_newsblock__noBg_shortText">
+						<p>Россия будет и дальше наращивать 
+							военный потенциал армии и флота 
+							для защиты от потенциальных 
+							агрессоров, а также обеспечивать 
+							сбалансированную, системную 
+							работу всех родов и видов войск...
+						</p>
+					</div>
+					<div class="news_newsGrid_newsblock_hover animated fadeIn">
+
+						<div class="news_newsGrid_newsblock_date_hover">
+							<p>12/07.2017</p>
+						</div>
+						<div class="news_newsGrid_newsblock__title__hover">
+							<p>Россия будет и дальше 
+								наращивать военный 
+								потенциал армии и флота
+							</p>
+						</div>
+						<div class="news_newsGrid_newsblock__shortText__hover">
+							<p>Россия будет и дальше наращивать 
+								военный потенциал армии и флота 
+								для защиты от потенциальных 
+								агрессоров, а также обеспечивать 
+								сбалансированную, системную 
+								работу всех родов и видов войск...
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="news_newsGrid_newsblock5">
+				<div class="news_newsGrid_newsblock">
+					<img class="news_newsGrid_newsblock" width="332" height="332" src="images/news_newsGrid_newsblock5.png">
 					<div class="news_newsGrid_newsblock_date">
 						<p>08/07.2017</p>
 					</div>
@@ -228,8 +330,30 @@
 						<p>В Челябинске обновят
 							<br> два парка</p>
 					</div>
+					<div class="news_newsGrid_newsblock_hover animated fadeIn">
+
+						<div class="news_newsGrid_newsblock_date_hover">
+							<p>12/07.2017</p>
+						</div>
+						<div class="news_newsGrid_newsblock__title__hover">
+							<p>Россия будет и дальше 
+								наращивать военный 
+								потенциал армии и флота
+							</p>
+						</div>
+						<div class="news_newsGrid_newsblock__shortText__hover">
+							<p>Россия будет и дальше наращивать 
+								военный потенциал армии и флота 
+								для защиты от потенциальных 
+								агрессоров, а также обеспечивать 
+								сбалансированную, системную 
+								работу всех родов и видов войск...
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="news_newsGrid_newsblock6">
+				<div class="news_newsGrid_newsblock">
+					<img class="news_newsGrid_newsblock" width="332" height="332" src="images/news_newsGrid_newsblock6.png">
 					<div class="news_newsGrid_newsblock_date">
 						<p>07/07.2017</p>
 					</div>
@@ -237,14 +361,35 @@
 						<p>Житель Австралии вживил
 							<br> себе под кожу проездной</p>
 					</div>
+					<div class="news_newsGrid_newsblock_hover animated fadeIn">
+
+						<div class="news_newsGrid_newsblock_date_hover">
+							<p>12/07.2017</p>
+						</div>
+						<div class="news_newsGrid_newsblock__title__hover">
+							<p>Россия будет и дальше 
+								наращивать военный 
+								потенциал армии и флота
+							</p>
+						</div>
+						<div class="news_newsGrid_newsblock__shortText__hover">
+							<p>Россия будет и дальше наращивать 
+								военный потенциал армии и флота 
+								для защиты от потенциальных 
+								агрессоров, а также обеспечивать 
+								сбалансированную, системную 
+								работу всех родов и видов войск...
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<a href="#">
+			
 				<div class="news__buttonMoreNews">
 					<div class="news__buttonMoreNews_redline"></div>
-					<p class="news__buttonMoreNews_button">больше новостей</p>
+					<a class="news__buttonMoreNews_button">больше новостей</a>
 				</div>
-			</a>
+			
 		</section>
 		<section class="adv">
 			<div class="adv__headerTitle">

@@ -1,0 +1,116 @@
+
+/********contacts begin*******/
+.contacts{
+	display: flex;
+	width: 100%;
+	height: 940px;
+	background-color: #ffffff;
+
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.contacts__headerTitle{
+	//font-family: OpenSans;
+	//font-size: 23pt;
+	//text-transform: uppercase;
+	//color:#dd161d;
+	margin-top: 52px;
+	margin-left: 29.3%;
+	//letter-spacing: 4px;
+	//margin-bottom: 66px;
+	position: relative;
+	width: 355px;
+}
+
+.contacts__headerTitle>p{
+	font-family: OpenSans;
+	font-size: 23pt;
+	text-transform: uppercase;
+	color:#dd161d;
+	letter-spacing: 4px;
+}
+.contacts__headerTitle_info{
+	position: absolute;
+	top:125px;
+	width: 333px;
+	height: 535px;
+	//background-color: #000000;
+	z-index: 999;
+}
+
+.contacts__headerTitle_info_text{
+	padding-left:45px;
+	padding-top: 31px;
+	padding-bottom: 45px;
+	padding-right: 10px;
+	background-color:rgba( 	255,0, 0,.8);
+}
+
+.contacts__headerTitle_info_text_title{
+	font-family: OpenSans;
+	font-size: 12pt;
+	line-height: 29px;
+	color:#ffffff;
+}
+
+.contacts__headerTitle_info_text_title_adv{
+	font-family: OpenSans;
+	font-size: 13.2pt;
+	text-transform: uppercase;
+	line-height: 29px;
+	color:#ffffff;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.contacts__headerTitle_info_text_whois{
+
+	font-family: OpenSans;
+	font-size: 10.1pt;
+	line-height: 24px;
+	color:#ffffff;
+}
+
+.contacts__headerTitle_info_owners{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 138px;
+}
+.contacts__headerTitle_info_owners img{
+	margin-left:50px; 
+}
+
+
+#contacts__googleMap {
+	width: 100%;
+	height: 803px;
+//	 -webkit-filter: grayscale(100%);
+ // -moz-filter: grayscale(100%);
+ // -ms-filter: grayscale(100%);
+  //-o-filter: grayscale(100%);
+ // filter: grayscale(100%);
+ // filter: gray; /* IE 6-9 */
+}
+
+@media  (max-width: 1292px) {
+
+.contacts__headerTitle{
+	//font-family: OpenSans;
+	//font-size: 23pt;
+	//text-transform: uppercase;
+	//color:#dd161d;
+	margin-top: 52px;
+	margin-left: 8%;
+	//letter-spacing: 4px;
+	//margin-bottom: 66px;
+	position: relative;
+	width: 355px;
+}
+	
+}
+
+/********contacts end*******/
