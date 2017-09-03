@@ -15,5 +15,50 @@ footer{
 	height: 53px;
 	background: url(../images/flexsitesLogo.png) no-repeat center top;
 	margin-right:44px;
+
+}
+
+
+
+
+
+
+@media  (max-width: 1000px) {
+
+
+footer{
+	width: 1000px;
+	height: 95px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color:#ffffff;
+}
+
+
+}
+
+
+
+@media  (max-width: 430px) {
+
+
+footer {
+    width: 430px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.flexitesLogo {
+    width: 172px;
+    height: 74px;
+    background: url(../images/flexsitesLogo.png) no-repeat center top;
+    margin-right: 44px;
+}
+
+
 }
 /********footer    end*******/

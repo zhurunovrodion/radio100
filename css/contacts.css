@@ -113,4 +113,67 @@
 	
 }
 
+
+
+
+@media  (max-width: 1000px) {
+
+
+.contacts{
+	display: flex;
+	width: 1000px;
+	height: 940px;
+	background-color: #ffffff;
+
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+}
+
+
+
+
+@media  (max-width: 430px) {
+
+
+.contacts{
+	display: flex;
+	width: 430px;
+	height: 940px;
+	background-color: #ffffff;
+
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.contacts__headerTitle {
+    //font-family: OpenSans;
+    //font-size: 23pt;
+    //text-transform: uppercase;
+    //color: #dd161d;
+    margin-top: 0px;
+    margin-left: 0%;
+    //letter-spacing: 4px;
+    //margin-bottom: 66px;
+    position: relative;
+    width: 330px;
+    min-height: 74px;
+}
+
+.contacts__headerTitle > p {
+    font-family: OpenSans;
+    font-size: 23pt;
+    text-transform: uppercase;
+    color: #dd161d;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+}
+
 /********contacts end*******/

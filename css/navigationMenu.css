@@ -719,8 +719,217 @@
   
 }
 
+.navigationMenu__menuLine__centralPanel__playListMenu__title.state-opened {
+    z-index: 27;
+    background: white;
+}
+.navigationMenu__menuLine__centralPanel__playListMenu_content.state-opened {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0,0,0,.9);
+    padding: left:0;
+    top: 43px;
+    border-top: 1px solid #ffffff;
+    transition: all 0.5s;
+    animation-duration: 0.5s;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 1000px) {
+
+.navigationMenu__menuLine{
+	display: flex;
+	width: 1000px;
+	height: 105px;
+	//opacity: 0.5;
+	background-color:rgba(0,0,0,.35);
+	//outline: 1px solid #000000;
+	//background-image: url("../images/Firefox_wallpaper.png");
+	position: absolute;
+
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+
+	
+}
+
+
+
+
+
+@media  (max-width: 430px) {
+
+.navigationMenu__menuLine{
+	display: flex;
+	width: 430px;
+	height: 105px;
+	
+	background-color:rgba(0,0,0,0);
+	
+	position: absolute;
+
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.navigationMenu__menuLine__centralPanel {
+    min-width: 430px;
+    height: 105px;
+    top: 467px;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+}
+
+
+.navigationMenu__menuLine__socialNetworks {
+    float: right;
+   
+    flex: 1;
+    position: absolute;
+    top: 90px;
+    right: 37px;
+}
+
+
+.navigationMenu__menuLine__menu__mainMenu__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -466px;
+    background-color: #dd161d;
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    min-height: 147px;
+    z-index: 1;
+    padding: 45px 40px 0 45px;
+        padding-top: 45px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    height: 320px;
+padding-top: 97px;
+
+}
+
+.navigationMenu__menuLine__menu{
+	float: left;
+	
+	min-width: 379px;
+	
+	margin-left: 14px;
+	position: relative;
+	display: flex;
+	align-items:  center;	
+	
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu {
+    width: 100%;
+    position: absolute;
+    top: -41px;
+    left: 0px;
+}
+
+.navigationMenu__menuLine__centralPanel__logo{
+	min-width: 128px;
+	height: 82px;
+	background-image: url("../images/navigationMenu__menuLine__centralPanel__logo.png");
+	display: none;
+	float: left;
+	margin-left: 47px;
+	align-items: center;
+}
+
+.navigationMenu__menuLine__centralPanel__playListMenu_content.state-opened {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+.navigationMenu__menuLine__menu__rightMenu {
+    font-family: Open Sans Semibold;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 11pt;
+    margin-left: 5%;
+}
+
+.navigationMenu__menuLine__centralPanel__player {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 14px;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content__list {
+    box-sizing: border-box;
+    display: flex;
+    font-family: Open Sans Semibold;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 11pt;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    font-weight: bold;
+}
+	
+
+.navigationMenu__menuLine__centralPanel__onAir_songName {
+    font-family: Arial;
+    font-size: 12px;
+    color: #ffffff;
+    float: left;
+    //margin-top: 45px;
+    margin-left: 5px;
+    max-width: 134px;
+}
+
+
+.navigationMenu__menuLine__centralPanel__player__playButton {
+    min-width: 24px;
+    height: 25px;
+    cursor: pointer;
+    float: left;
+    //margin-top: 38px;
+    margin-left: 8px;
+    background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton.png');
+    position: relative;
+    bottom: 5px;
+}
+
+}
+
+
 
 
 
