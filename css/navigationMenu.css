@@ -879,7 +879,14 @@ top: 626px
 
 }
 
-
+@media  (max-width: 491px){
+	.navigationMenu__menuLine__socialNetworks {
+    margin-right: 7px;
+    position: absolute;
+right: 7px;
+top: 76px;
+}
+}
 
 @media  (max-width: 430px) {
 

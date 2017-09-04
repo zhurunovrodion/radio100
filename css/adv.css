@@ -23,7 +23,7 @@
 	text-transform: uppercase;
 	margin-left: 29.3% ;
 	font-weight: bold;
-	width:  500px;
+	width:  40%;
 }
 .adv__buttonDwPrice{
 	display: flex;
@@ -162,6 +162,20 @@
     font-weight: bold;
     width: 92%;
 }
+
+.adv__headerTitle {
+    font-family: Open Sans Bold;
+    font-size: 30pt;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-top: 86px;
+    text-transform: uppercase;
+    margin-left: 9%;
+    font-weight: 900;
+    width: 82%;
+    line-height: 54px;
+}
+
 
 }
 
