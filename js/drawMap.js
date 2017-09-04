@@ -13,6 +13,9 @@ var stylez =  [
                 "lightness": 65
             },
             {
+                "gamma": 0.4
+            },
+            {
                 "visibility": "on"
             }
         ]
@@ -25,6 +28,9 @@ var stylez =  [
             },
             {
                 "lightness": 51
+            },
+            {
+                "gamma": 0.4
             },
             {
                 "visibility": "simplified"
@@ -131,7 +137,7 @@ var stylez =  [
   map = new google.maps.Map(document.getElementById("contacts__googleMap"),
       mapOptions);
   var styledMapOptions = {
-    name: "Radio100"
+    name: "Черно-белая Карта"
   };
   var jayzMapType = new google.maps.StyledMapType(stylez, styledMapOptions);
   map.mapTypes.set(MY_MAPTYPE_ID, jayzMapType);

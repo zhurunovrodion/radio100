@@ -1,37 +1,42 @@
 @import url(reset.css);
+
 @import url(menuAnimation.css);
+
 @import url(animations.css);
+
 @import url(fonts.css);
+
 @import url(foxhover.css);
+
 @import url(navigationMenu.css);
+
 @import url(contests.css);
+
 @import url(news.css);
+
 @import url(adv.css);
+
 @import url(contacts.css);
+
 @import url(footer.css);
 
+@import url(datepicker.css);
 
-
-
-
-body{
+body {
 	overflow: auto;
 }
 
 
 
 /********slider begin*******/
-.photoSlider__background{
-	
+.photoSlider__background {
 	background: url("../images/madonna.png") no-repeat center top;
 	width: 100%;
-	
-	
 	height: 818px;
-	 -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /********slider end*******/
@@ -44,65 +49,46 @@ body{
 
 @media  (max-width: 1000px) {
 
-.photoSlider__background{
-	
-	background: url("../images/madonna.png") no-repeat center top;
-	width: 1000px;
-	
-	
-	height: 731px;
-	 -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-}
-
-
-	
+	.photoSlider__background {
+		background: url("../images/madonna.png") no-repeat center top;
+		width: 1000px;
+		height: 731px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 @media  (max-width: 999px) {
-	.photoSlider__background{
-	
-	background: url("../images/madonna.png") no-repeat center top;
-	width: 100%;
-	
-	
-	height: 731px;
-	 -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-}
-
+	.photoSlider__background {
+		background: url("../images/madonna.png") no-repeat center top;
+		width: 100%;
+		height: 731px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 @media  (max-width: 430px) {
-.photoSlider__background{
-	
-	background: url("../images/madonna.png") rgba(0,0,0,.35) no-repeat center top;
-	width: 430px;
-	
-	
-	height: 572px;
-	 -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+	.photoSlider__background {
+		background: url("../images/madonna.png") rgba(0,0,0,.35) no-repeat center top;
+		width: 430px;
+		height: 572px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.photoSlider__mobile__bg {
+		width: 100%;
+		height: 572px;
+		background-color: rgba(0,0,0,.35);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
-
-.photoSlider__mobile__bg{
-	width: 100%;
-	height: 572px;
-	background-color:rgba(0,0,0,.35);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-	
-}
-
-
-
-
-

@@ -1,231 +1,187 @@
-
 /********contacts begin*******/
-.contacts{
+.contacts {
 	display: flex;
 	width: 100%;
 	height: 940px;
 	background-color: #ffffff;
-
-	flex-direction:column;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: stretch;
 }
 
-.contacts__headerTitle{
-	//font-family: OpenSans;
-	//font-size: 23pt;
-	//text-transform: uppercase;
-	//color:#dd161d;
+.contacts__headerTitle {
 	margin-top: 52px;
 	margin-left: 29.3%;
-	//letter-spacing: 4px;
-	//margin-bottom: 66px;
 	position: relative;
 	width: auto;
 }
 
-.contacts__headerTitle>p{
+.contacts__headerTitle>p {
 	font-family: OpenSans;
 	font-size: 23pt;
 	text-transform: uppercase;
-	color:#dd161d;
+	color: #dd161d;
 	letter-spacing: 4px;
 	font-weight: 700;
 }
-.contacts__headerTitle_info{
+
+.contacts__headerTitle_info {
 	position: absolute;
-	top:125px;
+	top: 125px;
 	width: 333px;
 	height: 535px;
-	//background-color: #000000;
 	z-index: 999;
 }
 
-.contacts__headerTitle_info_text{
-	padding-left:45px;
+.contacts__headerTitle_info_text {
+	padding-left: 45px;
 	padding-top: 31px;
 	padding-bottom: 45px;
 	padding-right: 10px;
-	background-color:rgba( 	255,0, 0,.8);
+	background-color: rgba( 	255,0, 0,.8);
 }
 
-.contacts__headerTitle_info_text_title{
+.contacts__headerTitle_info_text_title {
 	font-family: OpenSans;
 	font-size: 12pt;
 	line-height: 29px;
-	color:#ffffff;
+	color: #ffffff;
 }
 
-.contacts__headerTitle_info_text_title_adv{
+.contacts__headerTitle_info_text_title_adv {
 	font-family: OpenSans;
 	font-size: 13.2pt;
 	text-transform: uppercase;
 	line-height: 29px;
-	color:#ffffff;
+	color: #ffffff;
 	letter-spacing: 1px;
 	font-weight: bold;
 }
 
-.contacts__headerTitle_info_text_whois{
-
+.contacts__headerTitle_info_text_whois {
 	font-family: OpenSans;
 	font-size: 10.1pt;
 	line-height: 24px;
-	color:#ffffff;
+	color: #ffffff;
 }
 
-.contacts__headerTitle_info_owners{
+.contacts__headerTitle_info_owners {
 	background-color: #ffffff;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	height: 138px;
 }
-.contacts__headerTitle_info_owners img{
-	margin-left:50px; 
-}
 
+.contacts__headerTitle_info_owners img {
+	margin-left: 50px;
+}
 
 #contacts__googleMap {
 	width: 100%;
 	height: 803px;
-//	 -webkit-filter: grayscale(100%);
- // -moz-filter: grayscale(100%);
- // -ms-filter: grayscale(100%);
-  //-o-filter: grayscale(100%);
- // filter: grayscale(100%);
- // filter: gray; /* IE 6-9 */
 }
 
 @media  (max-width: 1292px) {
 
-.contacts__headerTitle{
-	//font-family: OpenSans;
-	//font-size: 23pt;
-	//text-transform: uppercase;
-	//color:#dd161d;
-	margin-top: 52px;
-	margin-left: 8%;
-	//letter-spacing: 4px;
-	//margin-bottom: 66px;
-	position: relative;
-	width: auto;
+	.contacts__headerTitle {
+		margin-top: 52px;
+		margin-left: 8%;
+		position: relative;
+		width: auto;
+	}
 
+	.contacts__headerTitle>p {
+		font-family: OpenSans;
+		text-transform: uppercase;
+		color: #dd161d;
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
 }
-.contacts__headerTitle>p{
-	font-family: OpenSans;
-	
-	text-transform: uppercase;
-	color:#dd161d;
-	letter-spacing: 4px;
-	 font-weight: 700;
-}
-	
-}
-
-
-
 
 @media  (max-width: 1000px) {
 
 
-.contacts{
-	display: flex;
-	width: 1000px;
-	height: 940px;
-	background-color: #ffffff;
+	.contacts {
+		display: flex;
+		width: 1000px;
+		height: 940px;
+		background-color: #ffffff;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
+	}
 
-	flex-direction:column;
-	justify-content: space-between;
-	align-items: stretch;
+	.contacts__headerTitle>p {
+		font-family: OpenSans;
+		text-transform: uppercase;
+		color: #dd161d;
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
 }
-.contacts__headerTitle>p{
-	font-family: OpenSans;
-	
-	text-transform: uppercase;
-	color:#dd161d;
-	letter-spacing: 4px;
-	 font-weight: 700;
-}
-
-}
-
 
 @media  (max-width: 999px) {
 	.contacts {
-    display: flex;
-    width: 100%;
-    height: 940px;
-    background-color: #ffffff;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
+		display: flex;
+		width: 100%;
+		height: 940px;
+		background-color: #ffffff;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
+	}
 
-}
+	.contacts__headerTitle>p {
+		font-family: OpenSans;
+		font-size: 20pt;
+		text-transform: uppercase;
+		color: #dd161d;
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
 
-
-
-
-.contacts__headerTitle>p{
-	font-family: OpenSans;
-	font-size: 20pt;
-	text-transform: uppercase;
-	color:#dd161d;
-	letter-spacing: 4px;
-	 font-weight: 700;
-}
-.contacts__headerTitle_info {
-    position: absolute;
-    top: 137px;
-    width: 333px;
-    height: 535px;
-    //background-color: #000000;
-    z-index: 999;
-}
-
+	.contacts__headerTitle_info {
+		position: absolute;
+		top: 137px;
+		width: 333px;
+		height: 535px;
+		z-index: 999;
+	}
 }
 
 @media  (max-width: 430px) {
 
 
-.contacts{
-	display: flex;
-	width: 430px;
-	height: 940px;
-	background-color: #ffffff;
+	.contacts {
+		display: flex;
+		width: 430px;
+		height: 940px;
+		background-color: #ffffff;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-	flex-direction:column;
-	justify-content: center;
-	align-items: center;
-}
+	.contacts__headerTitle {
+		margin-top: 0px;
+		margin-left: 0%;
+		position: relative;
+		width: auto;
+		min-height: 74px;
+		display: flex;
+		justify-content: center;
+	}
 
-
-
-.contacts__headerTitle {
-    //font-family: OpenSans;
-    //font-size: 23pt;
-    //text-transform: uppercase;
-    //color: #dd161d;
-    margin-top: 0px;
-    margin-left: 0%;
-    //letter-spacing: 4px;
-    //margin-bottom: 66px;
-    position: relative;
-   width: auto;
-    min-height: 74px;
-        display: flex;
-    justify-content: center
-}
-
-.contacts__headerTitle > p {
-    font-family: OpenSans;
-    font-size: 21pt;
-    text-transform: uppercase;
-    color: #dd161d;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
+	.contacts__headerTitle > p {
+		font-family: OpenSans;
+		font-size: 21pt;
+		text-transform: uppercase;
+		color: #dd161d;
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
 }
 
 /********contacts end*******/
