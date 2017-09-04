@@ -21,7 +21,7 @@
 	//letter-spacing: 4px;
 	//margin-bottom: 66px;
 	position: relative;
-	width: 30%;
+	width: auto;
 }
 
 .contacts__headerTitle>p{
@@ -30,6 +30,7 @@
 	text-transform: uppercase;
 	color:#dd161d;
 	letter-spacing: 4px;
+	font-weight: 700;
 }
 .contacts__headerTitle_info{
 	position: absolute;
@@ -108,7 +109,16 @@
 	//letter-spacing: 4px;
 	//margin-bottom: 66px;
 	position: relative;
-	width: 355px;
+	width: auto;
+
+}
+.contacts__headerTitle>p{
+	font-family: OpenSans;
+	
+	text-transform: uppercase;
+	color:#dd161d;
+	letter-spacing: 4px;
+	 font-weight: 700;
 }
 	
 }
@@ -129,6 +139,14 @@
 	justify-content: space-between;
 	align-items: stretch;
 }
+.contacts__headerTitle>p{
+	font-family: OpenSans;
+	
+	text-transform: uppercase;
+	color:#dd161d;
+	letter-spacing: 4px;
+	 font-weight: 700;
+}
 
 }
 
@@ -142,9 +160,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+
 }
 
 
+
+
+.contacts__headerTitle>p{
+	font-family: OpenSans;
+	font-size: 20pt;
+	text-transform: uppercase;
+	color:#dd161d;
+	letter-spacing: 4px;
+	 font-weight: 700;
+}
 .contacts__headerTitle_info {
     position: absolute;
     top: 137px;
@@ -182,13 +211,15 @@
     //letter-spacing: 4px;
     //margin-bottom: 66px;
     position: relative;
-    width: 330px;
+   width: auto;
     min-height: 74px;
+        display: flex;
+    justify-content: center
 }
 
 .contacts__headerTitle > p {
     font-family: OpenSans;
-    font-size: 23pt;
+    font-size: 21pt;
     text-transform: uppercase;
     color: #dd161d;
     letter-spacing: 2px;
