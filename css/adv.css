@@ -134,7 +134,36 @@
 
 }
 
+@media  (max-width: 999px){
+.adv {
+    width: 100%;
+    height: 788px;
+    background: url("../images/adv_bg.png") no-repeat;
+        background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
 
+.adv__headerTitle {
+    font-family: OpenSans;
+    font-size: 39pt;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin-top: 86px;
+    text-transform: uppercase;
+    margin-left: 8%;
+    font-weight: bold;
+    width: 92%;
+}
+
+}
 
 
 @media  (max-width: 430px) {

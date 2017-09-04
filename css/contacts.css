@@ -133,7 +133,28 @@
 }
 
 
+@media  (max-width: 999px) {
+	.contacts {
+    display: flex;
+    width: 100%;
+    height: 940px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
+
+.contacts__headerTitle_info {
+    position: absolute;
+    top: 137px;
+    width: 333px;
+    height: 535px;
+    //background-color: #000000;
+    z-index: 999;
+}
+
+}
 
 @media  (max-width: 430px) {
 

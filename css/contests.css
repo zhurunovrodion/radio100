@@ -237,6 +237,129 @@
 
 
 
+
+
+@media  (max-width: 999px){
+
+.contests{
+	width: 100%;
+	height: 457px;
+	//background-color: #fa5311;
+	display: flex;
+	position: relative;
+}
+
+
+
+	.contests__headerTitle {
+    min-width: 430px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    color: #ffffff;
+    font-family: OpenSans;
+    font-size: 18pt;
+    text-transform: uppercase;
+    background-color: rgba( 255,0, 0,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-left: 0;
+    opacity: 1;
+box-sizing: border-box;
+padding: 30px 50px 30px 50px;
+text-align: left;
+line-height: 34px;
+height: 117px;
+
+
+
+
+}
+
+
+.contests__info__text {
+    font-family: OpenSans;
+    font-size: 10.5pt;
+    color: #323232;
+    line-height: 29px;
+    max-width: 100%;
+    align-self: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: -1px;
+    margin-bottom: 53px;
+    max-height: 149px;
+    overflow: hidden;
+}
+
+.contests__image-left {
+    flex: 0;
+    //background-color: #44fa05;
+    background: url(../images/constests__image.png) no-repeat top;
+        background-size: auto auto;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    //height: 435px;
+    width: 100%;
+    height: 372px;
+    position: absolute;
+    top: 118px;
+    left: 0;
+}
+
+.contests__info-right {
+    flex: 0;
+    background-color: rgba( 246,246, 246,.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    height: 372px;
+    top: 118px;
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media  (max-width: 430px) {
 
 

@@ -64,7 +64,9 @@
 	color:#ffffff;
 	margin-top: 8px;
 }
-
+.photoSlider__mobile__bg__mobileLogo{
+	display: none;
+}
 
 .navigationMenu__menuLine__centralPanel__player__fmFrequency__fm{
 	font-family: Arial;
@@ -776,7 +778,106 @@
 	
 }
 
+@media  (max-width: 999px) {
+	.navigationMenu__menuLine__centralPanel__playListMenu {
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
 
+.navigationMenu__menuLine__centralPanel {
+    min-width: 429px;
+    height: 105px;
+    //outline: 1px solid #000000;
+    margin-left: 0px;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+top: 626px
+}
+
+.navigationMenu__menuLine {
+    display: flex;
+    width: 100%;
+    height: 105px;
+    //opacity: 0.5;
+    background-color: rgba(0,0,0,.35);
+    //outline: 1px solid #000000;
+    //background-image: url("../images/Firefox_wallpaper.png");
+    position: absolute;
+    justify-content: start;
+    align-items: center;
+}
+
+.navigationMenu__menuLine__centralPanel__player__playButton {
+    min-width: 24px;
+    height: 25px;
+    cursor: pointer;
+    float: left;
+    //margin-top: 38px;
+    margin-left: 9px;
+    background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton.png');
+    position: relative;
+    bottom: 5px;
+}
+
+
+.navigationMenu__menuLine__menu__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+.navigationMenu__menuLine__menu {
+    float: left;
+    min-width: 379px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -626px;
+    background-color: #dd161d;
+    display: flex;
+    flex-direction: row;
+    width: calc(100%);
+    min-height: 147px;
+    z-index: 1;
+    padding: 45px 40px 0 45px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.navigationMenu__menuLine__menu__mainMenu__content__list {
+    box-sizing: border-box;
+    display: flex;
+    font-family: Open Sans Semibold;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 11pt;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    //flex-basis: 200px;
+    //flex-flow: row wrap;
+    font-weight: bold;
+    margin-left: 47px;
+}
+
+}
 
 
 
@@ -925,6 +1026,11 @@ padding-top: 97px;
     background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton.png');
     position: relative;
     bottom: 5px;
+}
+
+.photoSlider__mobile__bg__mobileLogo{
+	display: block;
+	margin-bottom: 154px;
 }
 
 }

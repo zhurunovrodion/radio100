@@ -61,7 +61,21 @@ body{
 	
 }
 
+@media  (max-width: 999px) {
+	.photoSlider__background{
+	
+	background: url("../images/madonna.png") no-repeat center top;
+	width: 100%;
+	
+	
+	height: 731px;
+	 -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
 
+}
 
 @media  (max-width: 430px) {
 .photoSlider__background{
@@ -81,6 +95,9 @@ body{
 	width: 100%;
 	height: 572px;
 	background-color:rgba(0,0,0,.35);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 	
 }
