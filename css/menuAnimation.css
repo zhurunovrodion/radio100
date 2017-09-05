@@ -34,6 +34,11 @@
     transform: translateY(-50%);
 }
 
+.cmn-toggle-switch-black span {
+    background-color: black;
+}
+
+
 .cmn-toggle-switch span::before,
 .cmn-toggle-switch span::after {
   position: absolute;
@@ -42,6 +47,17 @@
   width: 100%;
   height: 3px;
   background-color: white;
+  content: "";
+}
+
+.cmn-toggle-switch-black span::before,
+.cmn-toggle-switch-black span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: black;
   content: "";
 }
 
