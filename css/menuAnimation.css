@@ -17,10 +17,37 @@
   cursor: pointer;
   -webkit-transition: background 0.3s;
           transition: background 0.3s;
+          background-color: rgba(196,42,37,.7);
+}
+
+.cmn-toggle-switch-news {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 40px;/*108px;*/
+  height: 40px;/*96px;*/
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+          background-color: rgba(255,13,0,1);
 }
 
 .cmn-toggle-switch:focus {
   outline: none;
+}
+
+.red_border{
+  border: 1px solid red;
 }
 
 .cmn-toggle-switch span {

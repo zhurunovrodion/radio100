@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Радио 100FM</title>
+	<title>Новости Радио 100FM</title>
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
@@ -13,7 +13,9 @@
 	<script src="js/menuSwitcher.js"></script>
 	<script src="js/masked-input.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/jquery.scrollme.js"></script>
 	<script type="text/javascript">
+
 	jQuery(function($) {
 		$.mask.definitions['H'] = '[012]';
 		$.mask.definitions['M'] = '[012345]';
@@ -24,8 +26,153 @@
 </head>
 
 <body>
+	<div  class="playListFooter playListFooter-closed">
+
+
+		<div class="playListFooter__playListMenu_content playListFooter__playListMenu_content-hiden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="playListFooter__playListMenu_content__centralPanel">
+					<div class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
+						<ul class="navigationMenu__menuLine__menu__mainMenu__content__list">
+							<li><a href="#">о нас</a></li>
+							<li><a href="#">ведущие</a></li>
+							<li><a href="#">редакция</a></li>
+							<li><a href="#">реклама</a></li>
+							<li><a href="#">конкурсы</a></li>
+							<li><a href="#">программы</a></li>
+							<li><a href="#">музыка</a></li>
+						</ul>
+					</div>
+					<div class="playListFooter__playListMenu_content__centralPanel__logo"> <img src="images/navigationMenu__menuLine__centralPanel__logo.png"> </div>
+					<div class="playListFooter__playListMenu_content__centralPanel__player">
+						<div class="playListFooter__playListMenu_content__centralPanel__player__fmFrequency"> <img src="images/fm.png"> </div>
+						<div class="playListFooter__playListMenu_content__centralPanel__player__playButton">
+							<a href="#"></a>
+						</div>
+						<div class="playListFooter__playListMenu_content__centralPanel__onAir">
+							<div class="playListFooter__playListMenu_content__centralPanel__onAir_title">
+								<p>сейчас в эфире: </p>
+							</div>
+							<div class="playListFooter__playListMenu_content__centralPanel__onAir_songName">
+								<p>
+									<marquee>Barbara Streisand - Memory</marquee>
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<form method="post" class="playListFooter__playListMenu_content_dateForm">
+								<div class="playListFooter__playListMenu_content_dateForm__wrapper">
+									<div class="playListFooter__playListMenu_content_dateForm_textBlocks">
+										<p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">Дата:
+											<input type="text" class="datepicker-here playListFooter__playListMenu_content_dateForm_textBlocks_dmy"> </p>
+										<p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">от
+											<input id="eITDbegintime" type="text" class="playListFooter__playListMenu_content_dateForm_textBlocks_hm" />
+											<p>
+												<p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">до
+													<input id="eITDendtime" type="text" class="playListFooter__playListMenu_content_dateForm_textBlocks_hm" /> </p>
+									</div>
+									<div class="playListFooter__playListMenu_content_dateForm_buttonBlocks">
+										<p class="playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton">ПОКАЗАТЬ</p>
+									</div>
+								</div>
+							</form>
+							<div class="playListFooter__playListMenu_content_songList">
+								<ul class="playListFooter__playListMenu_content_songList_list">
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:05</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:09</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:13</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:16</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:21</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:05</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:09</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:13</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:16</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
+									</li>
+									<li class="playListFooter__playListMenu_content_songList_list_element">
+										<p class="playListFooter__playListMenu_content_songList_list_date">11:21</p>
+										<p class="playListFooter__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+		<div class="playListFooter__playListMenu">
+
+					<div class="playListFooter__playListMenu__title">
+					 <span class="playListFooter__playListMenu__title__text">посмотреть плейлист эфира</span>
+					</div>
+
+		</div>
+
+	</div>
 	<header>
+
 		<nav class="navigationMenu">
+			
 			<div class="navigationMenu__menuLine-news">
 				<div class="navigationMenu__menuLine__centralPanel-news">
 					<div class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
@@ -127,7 +274,7 @@
 				</div>
 				<div class="navigationMenu__menuLine__menu__wrapper">
 					<div class="navigationMenu__menuLine__menu">
-						<div class="navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch cmn-toggle-switch-black cmn-toggle-switch__htx"> <span></span> </div>
+						<div class="navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch   cmn-toggle-switch__htx cmn-toggle-switch-news"> <span></span> </div>
 						<div class="navigationMenu__menuLine__menu__rightMenu navigationMenu__menuLine__menu__rightMenu-black">
 							<ul>
 								<li><a href="#">Реклама</a></li>
@@ -422,7 +569,51 @@
 			</div>
 		</section>
 		
-	
+<div class="column column_right column_medium">
+
+					<ul class="effects plain clearfix scrollme">
+						<li class="effect">
+							<div
+								class="effect_box effect_box_opacity animateme"
+								data-when="view"
+								data-from="0.5"
+								data-to="0"
+								data-opacity="0"
+							></div>
+						</li>
+						<li class="effect">
+							<div
+								class="effect_box effect_box_scale animateme"
+								data-when="view"
+								data-from="0.55"
+								data-to="0.05"
+								data-scale="0"
+							></div>
+						</li>
+						<li class="effect">
+							<div
+								class="effect_box effect_box_rotate animateme"
+								data-when="view"
+								data-from="0.6"
+								data-to="0.1"
+								data-rotatex="-90"
+								data-rotatey="90"
+								data-rotatez="-90"
+							></div>
+						</li>
+						<li class="effect">
+							<div
+								class="effect_box effect_box_translate animateme"
+								data-when="view"
+								data-from="0.65"
+								data-to="0.15"
+								data-translatex="400"
+								data-translatey="400"
+							></div>
+						</li>
+					</ul>
+
+				</div><!-- column -->
 		<section class="contacts">
 			<div class="contacts__headerTitle">
 				<p>наши контакты ↓</p>
