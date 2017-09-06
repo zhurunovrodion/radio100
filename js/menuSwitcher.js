@@ -173,7 +173,11 @@ function onPlayListMenuButtonClickFooter(e){
 	var $menuButton = $(e.currentTarget);
 	var $parent_menuElement = $('.playListFooter');	
 	var $menuElement_content = $('.playListFooter__playListMenu_content');
+<<<<<<< HEAD
 	var $menuButton_content = $('.playListFooter__playListMenu__title');
+=======
+	
+>>>>>>> 413297068d638ef51b868bb45d9c47a01500cf07
 
 	if($parent_menuElement.is('.playListFooter-closed')){
 		
@@ -182,6 +186,7 @@ function onPlayListMenuButtonClickFooter(e){
 	 	
 		
 		
+<<<<<<< HEAD
 		 $menuElement_content.removeClass('animated bounceOut');
 		$parent_menuElement.removeClass('playListFooter-closed');
 		 $menuElement_content.removeClass('playListFooter__playListMenu_content-hiden');
@@ -190,6 +195,12 @@ function onPlayListMenuButtonClickFooter(e){
 		 $menuButton_content.animate({width: "100%"}, 300, function(){	 
 	 		$menuButton_content.html('<div class="navigationMenu__menuLine__menu__mainMenu state-opened animated flipInX active cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>');
 	 	});
+=======
+	
+		$parent_menuElement.removeClass('playListFooter-closed');
+		 $menuElement_content.removeClass('playListFooter__playListMenu_content-hiden');
+
+>>>>>>> 413297068d638ef51b868bb45d9c47a01500cf07
 		
 		
 		
@@ -197,6 +208,7 @@ function onPlayListMenuButtonClickFooter(e){
 
 		
 	}else{
+<<<<<<< HEAD
 			 
 			$menuButton_content.animate({width: "100%"}, 300, function(){
 			 $menuElement_content.removeClass('animated bounceIn');
@@ -206,6 +218,11 @@ function onPlayListMenuButtonClickFooter(e){
 	 		$menuButton_content.html('посмотреть плейлист эфира');
 	 	});
 		 $menuButton.find('.playListFooter__playListMenu__title__text').fadeIn(200);
+=======
+		$parent_menuElement.addClass('playListFooter-closed');
+		$menuElement_content.addClass('playListFooter__playListMenu_content-hiden');
+		
+>>>>>>> 413297068d638ef51b868bb45d9c47a01500cf07
 
 
 	}
