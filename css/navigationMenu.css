@@ -827,6 +827,7 @@
 		width: 100%;
 		top: 626px;
 		z-index: 2;
+		display: none;
 	}
 
 	.navigationMenu__menuLine {
@@ -992,6 +993,7 @@
 		align-items: center;
 		margin-left: 0;
 		z-index: 2;
+		display: none;
 	}
 
 
@@ -1176,6 +1178,8 @@ position: fixed;
 bottom: 0px;
 left: 0px;
 z-index: 4;
+display: flex;
+justify-content: center;
 
 }
 

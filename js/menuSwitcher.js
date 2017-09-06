@@ -161,3 +161,42 @@ function onPlayListMenuButtonClickNews(e){
 
 	}
 }
+
+
+
+function addPlayListMenuButtonHandlersFooter(){
+	$('.playListFooter__playListMenu').on('click', onPlayListMenuButtonClickFooter)
+}
+
+function onPlayListMenuButtonClickFooter(e){
+	
+	var $menuButton = $(e.currentTarget);
+	var $parent_menuElement = $('.playListFooter');	
+	var $menuElement_content = $('.playListFooter__playListMenu_content');
+	
+
+	if($parent_menuElement.is('.playListFooter-closed')){
+		
+		
+		
+	 	
+		
+		
+	
+		$parent_menuElement.removeClass('playListFooter-closed');
+		 $menuElement_content.removeClass('playListFooter__playListMenu_content-hiden');
+
+		
+		
+		
+	
+
+		
+	}else{
+		$parent_menuElement.addClass('playListFooter-closed');
+		$menuElement_content.addClass('playListFooter__playListMenu_content-hiden');
+		
+
+
+	}
+}
