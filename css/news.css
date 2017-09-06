@@ -353,7 +353,7 @@
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: stretch;
-		height: 837px;
+		height: auto;
 	}
 
 	.news__newsGrid {
@@ -396,7 +396,7 @@
 		align-items: center;
 	}
 
-	.news_newsGrid_newsblock:nth-child(2), .news_newsGrid_newsblock:nth-child(3), .news_newsGrid_newsblock:nth-child(4), .news_newsGrid_newsblock:nth-child(5), .news_newsGrid_newsblock:nth-child(6), .news_newsGrid_newsblock:nth-child(7), .news_newsGrid_newsblock:nth-child(8), .news_newsGrid_newsblock:nth-child(9), .news_newsGrid_newsblock:nth-child(10), .news_newsGrid_newsblock:nth-child(11), .news_newsGrid_newsblock:nth-child(12), .news_newsGrid_newsblock:nth-child(13) {
+	//.news_newsGrid_newsblock:nth-child(2), .news_newsGrid_newsblock:nth-child(3), .news_newsGrid_newsblock:nth-child(4), .news_newsGrid_newsblock:nth-child(5), .news_newsGrid_newsblock:nth-child(6), .news_newsGrid_newsblock:nth-child(7), .news_newsGrid_newsblock:nth-child(8), .news_newsGrid_newsblock:nth-child(9), .news_newsGrid_newsblock:nth-child(10), .news_newsGrid_newsblock:nth-child(11), .news_newsGrid_newsblock:nth-child(12), .news_newsGrid_newsblock:nth-child(13) {
 		display: none;
 	}
 

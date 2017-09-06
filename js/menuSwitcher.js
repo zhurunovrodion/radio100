@@ -123,6 +123,7 @@ function onPlayListMenuButtonClickNews(e){
 		$menuElement.find('.navigationMenu__menuLine__centralPanel__playListMenu__title__text').fadeOut(1000);
 	 	$menuButton.animate({width: 40}, 300, function(){	 
 	 		$menuButton.addClass('cmn-toggle-switch cmn-toggle-switch__htx active')
+	 				   .addClass('red_border')
 					   .addClass('state-opened')
 					   .addClass('animated zoomInzoomIn')
 	 				   .html('<span></span>');
@@ -145,6 +146,7 @@ function onPlayListMenuButtonClickNews(e){
 		$menuButton.addClass('state-closed');
 		$menuButton.removeClass('state-opened');
 		$menuButton.removeClass('animated zoomIn');
+		$menuButton.removeClass('red_border');
 		$menuButton.removeClass(' cmn-toggle-switch cmn-toggle-switch__htx active');
 		$menuElement.find('.navigationMenu__menuLine__centralPanel__playListMenu__title__text').fadeIn(200);
 		$menuButton.animate({width: "100%"},400);
