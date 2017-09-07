@@ -10,5 +10,6 @@ function initialize(){
 	addPlayListMenuButtonHandlersNews();
 	deleteNewsTitleOnHover();
 	addPlayListMenuButtonHandlersFooter()
+	
 }
 

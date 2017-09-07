@@ -5,6 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Новости Радио 100FM</title>
 	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
 	<meta name="viewport" content="width=device-width">
@@ -13,7 +14,19 @@
 	<script src="js/menuSwitcher.js"></script>
 	<script src="js/masked-input.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/jquery.scrollme.js"></script>
+	<script type="text/javascript" src="js/jquery.stickr.js">
+		
+	</script>
+
+
+
+
+	<script src="js/jquery.sticky.js"></script>
+	<script>
+	  $(document).ready(function(){
+	    $(".sticker").sticky({topSpacing:13,zIndex:3});
+	  });
+	</script> 
 	<script type="text/javascript">
 
 	jQuery(function($) {
@@ -21,11 +34,12 @@
 		$.mask.definitions['M'] = '[012345]';
 		$('#eITDbegintime').mask('H9:M9');
 		$('#eITDendtime').mask('H9:M9');
+		 
 	});
 	</script>
 </head>
 
-<body>
+<body class="all">
 	<div  class="playListFooter playListFooter-closed">
 
 
@@ -174,8 +188,8 @@
 		<nav class="navigationMenu">
 			
 			<div class="navigationMenu__menuLine-news">
-				<div class="navigationMenu__menuLine__centralPanel-news">
-					<div class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
+			<div class="navigationMenu__menuLine-news__wrapper">
+				<div  class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
 						<ul class="navigationMenu__menuLine__menu__mainMenu__content__list">
 							<li><a href="#">о нас</a></li>
 							<li><a href="#">ведущие</a></li>
@@ -186,6 +200,8 @@
 							<li><a href="#">музыка</a></li>
 						</ul>
 					</div>
+				<div class="navigationMenu__menuLine__centralPanel-news">
+					
 					<div class="navigationMenu__menuLine__centralPanel__logo"> <img src="images/navigationMenu__menuLine__centralPanel__logo.png"> </div>
 					<div class="navigationMenu__menuLine__centralPanel__player">
 						<div class="navigationMenu__menuLine__centralPanel__player__fmFrequency"> <img src="images/fm.png"> </div>
@@ -272,9 +288,12 @@
 					</div>
 					
 				</div>
-				<div class="navigationMenu__menuLine__menu__wrapper">
+
+				</div>
+				<div  class="navigationMenu__menuLine__menu__wrapper">
 					<div class="navigationMenu__menuLine__menu">
-						<div class="navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch   cmn-toggle-switch__htx cmn-toggle-switch-news"> <span></span> </div>
+					
+						<div  class=" sticker navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch   cmn-toggle-switch__htx cmn-toggle-switch-news"> <span></span> </div>
 						<div class="navigationMenu__menuLine__menu__rightMenu navigationMenu__menuLine__menu__rightMenu-black">
 							<ul>
 								<li><a href="#">Реклама</a></li>
@@ -299,7 +318,7 @@
 	</header>
 	<main>
 		<section class="news">
-			<div class="news__headerTitle-Full">
+			<div  class="news__headerTitle-Full">
 				<p>Новости</p>
 			</div>
 			<div class="news__newsGrid">
@@ -569,51 +588,7 @@
 			</div>
 		</section>
 		
-<div class="column column_right column_medium">
 
-					<ul class="effects plain clearfix scrollme">
-						<li class="effect">
-							<div
-								class="effect_box effect_box_opacity animateme"
-								data-when="view"
-								data-from="0.5"
-								data-to="0"
-								data-opacity="0"
-							></div>
-						</li>
-						<li class="effect">
-							<div
-								class="effect_box effect_box_scale animateme"
-								data-when="view"
-								data-from="0.55"
-								data-to="0.05"
-								data-scale="0"
-							></div>
-						</li>
-						<li class="effect">
-							<div
-								class="effect_box effect_box_rotate animateme"
-								data-when="view"
-								data-from="0.6"
-								data-to="0.1"
-								data-rotatex="-90"
-								data-rotatey="90"
-								data-rotatez="-90"
-							></div>
-						</li>
-						<li class="effect">
-							<div
-								class="effect_box effect_box_translate animateme"
-								data-when="view"
-								data-from="0.65"
-								data-to="0.15"
-								data-translatex="400"
-								data-translatey="400"
-							></div>
-						</li>
-					</ul>
-
-				</div><!-- column -->
 		<section class="contacts">
 			<div class="contacts__headerTitle">
 				<p>наши контакты ↓</p>

@@ -12,8 +12,8 @@ function addMainMenuButtonHandlers(){
 
 function deleteNewsTitleOnHover(){
 $('.news_newsGrid_newsblock').hover (
-function(){$(this).children('.news_newsGrid_newsblock_title').fadeOut(300);},
-function(){$(this).children('.news_newsGrid_newsblock_title').fadeIn(300)}
+function(){$(this).children('.news_newsGrid_newsblock_title').fadeOut(100);},
+function(){$(this).children('.news_newsGrid_newsblock_title').fadeIn(100)}
 );
 }
 /*
@@ -173,11 +173,7 @@ function onPlayListMenuButtonClickFooter(e){
 	var $menuButton = $(e.currentTarget);
 	var $parent_menuElement = $('.playListFooter');	
 	var $menuElement_content = $('.playListFooter__playListMenu_content');
-<<<<<<< HEAD
 	var $menuButton_content = $('.playListFooter__playListMenu__title');
-=======
-	
->>>>>>> 413297068d638ef51b868bb45d9c47a01500cf07
 
 	if($parent_menuElement.is('.playListFooter-closed')){
 		
@@ -186,43 +182,35 @@ function onPlayListMenuButtonClickFooter(e){
 	 	
 		
 		
-<<<<<<< HEAD
-		 $menuElement_content.removeClass('animated bounceOut');
+		 $menuElement_content.removeClass('bounceOut');
 		$parent_menuElement.removeClass('playListFooter-closed');
 		 $menuElement_content.removeClass('playListFooter__playListMenu_content-hiden');
-		  $menuElement_content.addClass('animated fadeInRight');
-		 $menuButton.find('.playListFooter__playListMenu__title__text').fadeOut(200);
-		 $menuButton_content.animate({width: "100%"}, 300, function(){	 
-	 		$menuButton_content.html('<div class="navigationMenu__menuLine__menu__mainMenu state-opened animated flipInX active cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>');
-	 	});
-=======
-	
-		$parent_menuElement.removeClass('playListFooter-closed');
-		 $menuElement_content.removeClass('playListFooter__playListMenu_content-hiden');
-
->>>>>>> 413297068d638ef51b868bb45d9c47a01500cf07
-		
-		
+		  $menuElement_content.addClass('animated');
+		    $menuElement_content.addClass('fadeInUp');
+		 $menuButton.find('.playListFooter__playListMenu__title__text').fadeOut(200, function() {$menuButton_content.html('<div class="navigationMenu__menuLine__menu__mainMenu state-opened animated flipInX active cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>');
+	 });
+			 
+	 		
 		
 	
 
 		
 	}else{
-<<<<<<< HEAD
 			 
-			$menuButton_content.animate({width: "100%"}, 300, function(){
-			 $menuElement_content.removeClass('animated bounceIn');
-		  $menuElement_content.addClass('animated bounceOut');
-		$parent_menuElement.addClass('playListFooter-closed');
-		$menuElement_content.addClass('playListFooter__playListMenu_content-hiden');	 
-	 		$menuButton_content.html('посмотреть плейлист эфира');
-	 	});
-		 $menuButton.find('.playListFooter__playListMenu__title__text').fadeIn(200);
-=======
+			
+			 $menuElement_content.removeClass('fadeInUp');
+		  $menuElement_content.addClass('bounceOut');
 		$parent_menuElement.addClass('playListFooter-closed');
 		$menuElement_content.addClass('playListFooter__playListMenu_content-hiden');
+
+		$menuButton_content.fadeIn(5000, function(){
+			$menuButton_content.html('<span class="playListFooter__playListMenu__title__text">посмотреть плейлист эфира</span');
+		});
+		/*$menuButton.find('.playListFooter__playListMenu__title__text').fadeOut(1000);*/
 		
->>>>>>> 413297068d638ef51b868bb45d9c47a01500cf07
+		
+	 		
+	 
 
 
 	}
