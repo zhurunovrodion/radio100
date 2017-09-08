@@ -3,6 +3,7 @@
 	width: 100%;
 	display: flex;
 	position: relative;
+	flex-wrap: wrap;
 }
 
 .contests__image-left {
@@ -104,7 +105,7 @@
 
 .contests__headerTitle-news {
     position: absolute;
-    min-width: 100%;
+    flex-basis: 100%;
     height: 79px;
     color: #dd161d;
     font-family: OpenSans;

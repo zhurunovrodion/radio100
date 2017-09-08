@@ -177,10 +177,12 @@ function onPlayListMenuButtonClickFooter(e){
 
 	if($parent_menuElement.is('.playListFooter-closed')){
 		
+		$('.navigationMenu__menuLine__menu__mainMenu__content').removeClass('state-opened');
+			$('.navigationMenu__menuLine__menu__mainMenu__content').addClass('state-closed');
 		
-		
-	 	
-		
+	 	$('.navigationMenu__menuLine__menu__mainMenu').removeClass('state-opened');
+			$('.navigationMenu__menuLine__menu__mainMenu').addClass('state-closed');
+			$('.navigationMenu__menuLine__menu__mainMenu').removeClass('active');
 		
 		 $menuElement_content.removeClass('bounceOut');
 		$parent_menuElement.removeClass('playListFooter-closed');
@@ -215,3 +217,12 @@ function onPlayListMenuButtonClickFooter(e){
 
 	}
 }
+
+/*
+fuction doStickMenu(){
+	$stickElement=$('.navigationMenu__menuLine__menu__mainMenu');
+	$win_w = $(window).width();
+	if ($win_w < 1000 ){
+		$stickElement.addClass('sticker');
+	}
+}*/

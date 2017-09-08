@@ -1494,6 +1494,23 @@ justify-content: center;
     margin-left: 60px;
 }
 
+
+
+.playListFooter__playListMenu_content__centralPanel__onAir {
+
+position: relative;
+    top: -4px;
+    left: 4px;
+
+
+	
+}
+
+
+
+
+
+
 }
 
 @media  (max-width: 491px) {
