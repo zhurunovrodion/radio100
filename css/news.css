@@ -258,26 +258,31 @@
 
 
 .showNews{
-	display: flex;
-	width: 100%;
-	outline: 10px solid blue;
-	flex-direction: column;
-	justify-content: space-between;
-align-items: stretch;
-height: 872px;
+	    display: flex;
+    width: 100%;
+    
+   
+    justify-content: flex-end;
+    /*flex-direction: column;*/
+    height: 872px;
+    margin-top: 82px;
+    margin-bottom: 206px;
 }
 
 .showNews__content{
-	width: 1000px;
-
+	flex-basis: 1091px;
+    outline: 1px solid blue;
+    margin-right: 317px;
+    margin-left: 47px;
 }
 
 .showNews__content__breadCrumb{
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	width: 100%;
-	height: 400px;
+	    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+   
+    margin-bottom: 40px;
 
 }
 
@@ -308,6 +313,72 @@ height: 872px;
 	margin-right: 3px;
 }
 
+
+.showNews__content__fullNewsBlock{
+	display:flex;
+
+}
+
+.showNews__content__fullNewsBlock__newsTitle{
+	display: flex;
+ 	flex-direction: column;
+ 	flex-basis: 400px;
+ 	align-items: flex-start;
+
+}
+
+.showNews__content__fullNewsBlock__newsTitle__titleText{
+	font-family: Open Sans Bold;
+	text-transform: uppercase;
+	color:#dd161d;
+	font-size: 45px;
+	margin-bottom: 55px;
+	letter-spacing: 1px;
+
+}
+
+
+.showNews__content__fullNewsBlock__newsTitle__titleImage{
+
+}
+
+
+.showNews__content__fullNewsBlock__newsTextblock{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	background-color: #f6f6f6;
+	padding-left:47px;
+	flex-basis: 100%;
+	position: relative;
+}
+
+
+.showNews__content__fullNewsBlock__newsTextblock__date{
+	    font-family: OpenSans;
+    font-size: 8.4pt;
+    color: #ffffff;
+    background-color: #1a1a15;
+    width: 97px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    position: absolute;
+    top: 0;
+    left:47px;
+}
+
+
+.showNews__content__fullNewsBlock__newsTextblock__text{
+     font-family: OpenSans;
+    color: #868686;
+    font-size: 14px;
+    max-width: 459px;
+    line-height: 26px;
+margin-top: 63px;
+}
 
 
 
@@ -369,7 +440,7 @@ height: 872px;
 
 	.news {
 		display: flex;
-		width: 100%;
+		width: 100%
 		background-color: #ffffff;
 		flex-direction: column;
 		justify-content: space-between;
