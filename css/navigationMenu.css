@@ -9,7 +9,7 @@
 	align-items: center;
 }
 
-.navigationMenu__menuLine-news{
+.navigationMenu__menuLine-news {
 	display: flex;
 	width: 100%;
 	height: 105px;
@@ -19,17 +19,15 @@
 	align-items: center;
 }
 
-.navigationMenu__menuLine-news__wrapper{
+.navigationMenu__menuLine-news__wrapper {
 	position: relative;
-    min-width: 666px;
-    height: 105px;
-    position: relative;
-   
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
-    
+	min-width: 666px;
+	height: 105px;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 47px;
 }
 
 .navigationMenu__menuLine__centralPanel {
@@ -52,10 +50,8 @@
 	justify-content: flex-start;
 	align-items: center;
 	/*margin-left: 47px;
-	z-index: 2;*/
-
+	z-index: 2;*/;
 }
-
 
 .navigationMenu__menuLine__centralPanel__logo {
 	min-width: 128px;
@@ -276,10 +272,7 @@
 
 .navigationMenu__menuLine__menu__mainMenu * {
 	user-select: none;
-
 }
-
-
 
 .navigationMenu__menuLine__menu__mainMenu.state-opened {
 	background: white;
@@ -292,7 +285,6 @@
 	font-size: 11pt;
 	margin-left: 4%;
 }
-
 
 .navigationMenu__menuLine__menu__rightMenu-black {
 	font-family: Open Sans Semibold;
@@ -320,7 +312,7 @@
 	font-weight: bold;
 }
 
-.navigationMenu__menuLine__menu__rightMenu-black li a{
+.navigationMenu__menuLine__menu__rightMenu-black li a {
 	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
@@ -331,8 +323,6 @@
 .navigationMenu__menuLine__menu__rightMenu li a:hover {
 	color: #ff1200;
 }
-
-
 
 .navigationMenu__menuLine__socialNetworks {
 	float: right;
@@ -355,7 +345,7 @@
 	background-repeat: no-repeat;
 }
 
-.navigationMenu__menuLine__socialNetworks__59play224-black{
+.navigationMenu__menuLine__socialNetworks__59play224-black {
 	background-image: url(../images/triangle_logo_black.png);
 	float: right;
 	width: 19px;
@@ -368,10 +358,9 @@
 	width: 33px;
 	height: 19px;
 	background-image: url(../images/vk_logo.png);
-
 }
 
-.navigationMenu__menuLine__socialNetworks__vk-black{
+.navigationMenu__menuLine__socialNetworks__vk-black {
 	background-image: url(../images/vk_logo_black.png);
 	float: right;
 	width: 33px;
@@ -404,22 +393,21 @@
 }
 
 .navigationMenu__menuLine__centralPanel__playListMenu__title-news {
-    color: #ffffff;
-    font-family: OpenSans;
-    text-decoration: none;
-    height: 40px;
-    width: 100%;
-    white-space: nowrap;
-    user-select: none;
-    -moz-user-select: none;
-    background-color: rgba( 255,0, 0,.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    cursor: pointer;
+	color: #ffffff;
+	font-family: OpenSans;
+	text-decoration: none;
+	height: 40px;
+	width: 100%;
+	white-space: nowrap;
+	user-select: none;
+	-moz-user-select: none;
+	background-color: rgba( 255,0, 0,.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	cursor: pointer;
 }
-
 
 .navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm {
 	width: 100%;
@@ -524,13 +512,10 @@
 	background: white;
 }
 
-
 .navigationMenu__menuLine__centralPanel__playListMenu__title-news.state-opened {
 	z-index: 0;
 	background: white;
 }
-
-
 
 .navigationMenu__menuLine__centralPanel__playListMenu_content.state-opened {
 	visibility: visible;
@@ -576,7 +561,7 @@
 	font-weight: 700;
 }
 
-.navigationMenu__menuLine__centralPanel__radioTitle{
+.navigationMenu__menuLine__centralPanel__radioTitle {
 	position: absolute;
 	top: 187px;
 	left: 93px;
@@ -584,8 +569,7 @@
 	flex-direction: column;
 }
 
-
-.navigationMenu__menuLine__centralPanel__radioTitle__radioName{
+.navigationMenu__menuLine__centralPanel__radioTitle__radioName {
 	font-family: OpenSans;
 	color: #ffffff;
 	width: auto;
@@ -594,7 +578,7 @@
 	letter-spacing: 2px;
 }
 
-.navigationMenu__menuLine__centralPanel__radioTitle__city{
+.navigationMenu__menuLine__centralPanel__radioTitle__city {
 	font-family: OpenSans;
 	color: #ffffff;
 	width: auto;
@@ -604,91 +588,25 @@
 	margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.playListFooter{
-	
-width: 100%;
-height: 100%;
-position: fixed;
-bottom: 0px;
-left: 0px;
-z-index: 4;
-display: none;
-justify-content: center;
-
+.playListFooter {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 4;
+	display: none;
+	justify-content: center;
 }
 
-.playListFooter__playListMenu{
+.playListFooter__playListMenu {
 	width: 100%;
 	position: absolute;
-	bottom:0px;
+	bottom: 0px;
 	left: 0px;
-	
 }
 
-.playListFooter__playListMenu__title{
+.playListFooter__playListMenu__title {
 	color: #ffffff;
 	font-family: OpenSans;
 	text-decoration: none;
@@ -705,39 +623,32 @@ justify-content: center;
 	cursor: pointer;
 }
 
-
-.playListFooter__playListMenu__title{
+.playListFooter__playListMenu__title {
 	animation-duration: 0.5s;
 }
 
-
-.playListFooter__playListMenu_content{
-	
+.playListFooter__playListMenu_content {
 	box-sizing: border-box;
 	width: 100%;
 	height: calc(100% - 40px);
 	background-color: rgba(0,0,0,.9);
 	padding: left:0;
-	
 	border-top: 1px solid #ffffff;
 	transition: all 0.5s;
 	animation-duration: 0.5s;
 	display: flex;
-flex-direction: column;
-
-align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
-
-.playListFooter__playListMenu_content_dateForm{
+.playListFooter__playListMenu_content_dateForm {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	min-height: 117px;
 }
 
-
-.playListFooter__playListMenu_content_dateForm__wrapper{
+.playListFooter__playListMenu_content_dateForm__wrapper {
 	display: flex;
 	justify-content: space-around;
 	margin-left: 5px;
@@ -747,14 +658,12 @@ align-items: center;
 	flex-wrap: wrap;
 }
 
-
-.playListFooter__playListMenu_content_dateForm_textBlocks{
+.playListFooter__playListMenu_content_dateForm_textBlocks {
 	display: flex;
 	min-width: 349px;
 }
 
-
-.playListFooter__playListMenu_content_dateForm_textBlocks_text{
+.playListFooter__playListMenu_content_dateForm_textBlocks_text {
 	color: #ffffff;
 	font-family: OpenSans;
 	font-size: 12px;
@@ -762,8 +671,7 @@ align-items: center;
 	font-weight: 700;
 }
 
-
-.playListFooter__playListMenu_content_dateForm_textBlocks_dmy{
+.playListFooter__playListMenu_content_dateForm_textBlocks_dmy {
 	width: 100px;
 	margin-left: 10px;
 	background: url(../images/nobg.png);
@@ -771,20 +679,16 @@ align-items: center;
 	font-size: 18px;
 	font-family: OpenSans;
 	border: none;
-	    border-bottom-width: medium;
-	    border-bottom-style: none;
-	    border-bottom-color: currentcolor;
+	border-bottom-width: medium;
+	border-bottom-style: none;
+	border-bottom-color: currentcolor;
 	border-bottom: 1px solid #ffffff;
 	padding-bottom: 8px;
 	margin-right: 23px;
 	font-weight: 700;
 }
 
-
-
-
-
-.playListFooter__playListMenu_content_dateForm_textBlocks_hm{
+.playListFooter__playListMenu_content_dateForm_textBlocks_hm {
 	width: 50px;
 	margin-left: 4px;
 	background: url(../images/nobg.png);
@@ -793,65 +697,56 @@ align-items: center;
 	font-size: 18px;
 	font-family: OpenSans;
 	border: none;
-	    border-bottom-width: medium;
-	    border-bottom-style: none;
-	    border-bottom-color: currentcolor;
+	border-bottom-width: medium;
+	border-bottom-style: none;
+	border-bottom-color: currentcolor;
 	border-bottom: 1px solid #ffffff;
 	padding-bottom: 8px;
 	font-weight: 700;
 }
 
-.playListFooter__playListMenu_content_dateForm_buttonBlocks{
-
+.playListFooter__playListMenu_content_dateForm_buttonBlocks {
 }
 
-
-.playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton{
-	    font-size: 11.5pt;
-    font-family: Open Sans Bold;
-    color: #ffffff;
-    cursor: pointer;
-    transition: all 0.5s;
-    margin-left: 10px;
-    position: relative;
-    bottom: 3px;
+.playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton {
+	font-size: 11.5pt;
+	font-family: Open Sans Bold;
+	color: #ffffff;
+	cursor: pointer;
+	transition: all 0.5s;
+	margin-left: 10px;
+	position: relative;
+	bottom: 3px;
 }
 
-.playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton:hover{
-	
-    color: #ff1200;
+.playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton:hover {
+	color: #ff1200;
 }
 
-
-.playListFooter__playListMenu_content_songList{
+.playListFooter__playListMenu_content_songList {
 	display: flex;
-	overflow:auto;
+	overflow: auto;
 	height: calc(100% - 130px);
 	justify-content: center;
 }
 
-.playListFooter__playListMenu_content_songList_list{
-	
+.playListFooter__playListMenu_content_songList_list {
 	color: #ffffff;
 }
 
-
-.playListFooter__playListMenu_content_songList_list_element{
+.playListFooter__playListMenu_content_songList_list_element {
 	display: flex;
 	margin-bottom: 20px;
 	margin-left: 10px;
 }
 
-
-.playListFooter__playListMenu_content_songList_list_date{
+.playListFooter__playListMenu_content_songList_list_date {
 	font-family: OpenSans;
 	font-size: 10.5pt;
 	font-weight: 700;
 }
 
-
-
-.playListFooter__playListMenu_content_songList_list_songName{
+.playListFooter__playListMenu_content_songList_list_songName {
 	font-family: OpenSans;
 	font-size: 10.5pt;
 	margin-left: 59px;
@@ -859,29 +754,20 @@ align-items: center;
 	font-weight: 700;
 }
 
-
-
-
-
-
-
-
-.playListFooter__playListMenu_content__centralPanel{
-		min-width: 429px;
-		height: 105px;
-		margin-left: 0px;
-		
-		background-color: rgba(0,0,0,0);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		margin-top: 10px;
-		z-index: 2;
+.playListFooter__playListMenu_content__centralPanel {
+	min-width: 429px;
+	height: 105px;
+	margin-left: 0px;
+	background-color: rgba(0,0,0,0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
+	z-index: 2;
 }
 
-
-.playListFooter__playListMenu_content__centralPanel__logo{
+.playListFooter__playListMenu_content__centralPanel__logo {
 	min-width: 128px;
 	height: 82px;
 	background-image: url("../images/navigationMenu__menuLine__centralPanel__logo.png");
@@ -890,55 +776,55 @@ align-items: center;
 	align-items: center;
 }
 
-
-.playListFooter__playListMenu_content__centralPanel__player{
+.playListFooter__playListMenu_content__centralPanel__player {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-left: 44px;
 }
 
-
-.playListFooter__playListMenu_content__centralPanel__player__fmFrequency{
-		min-width: 143px;
-		height: 75px;
-		top: 0px;
-		float: left;
-		position: relative;
+.playListFooter__playListMenu_content__centralPanel__player__fmFrequency {
+	min-width: 143px;
+	height: 75px;
+	top: 0px;
+	float: left;
+	position: relative;
 }
 
-
-
-.playListFooter__playListMenu_content__centralPanel__player__playButton{
-		min-width: 24px;
-		height: 25px;
-		cursor: pointer;
-		float: left;
-		margin-left: 9px;
-		background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton.png');
-		position: relative;
-		bottom: 5px;
+.playListFooter__playListMenu_content__centralPanel__player__playButton {
+	min-width: 24px;
+	height: 25px;
+	cursor: pointer;
+	float: left;
+	margin-left: 9px;
+	background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton.png');
+	position: relative;
+	bottom: 5px;
 }
 
-
-
-.playListFooter__playListMenu_content__centralPanel__onAir{
-
+.playListFooter__playListMenu_content__centralPanel__player__playButton:hover {
+	min-width: 24px;
+	height: 25px;
+	cursor: pointer;
+	float: left;
+	margin-left: 9px;
+	background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton-hover.png');
+	position: relative;
+	bottom: 5px;
 }
 
-
-
-.playListFooter__playListMenu_content__centralPanel__onAir_title{
-		font-family: Arial;
-		font-size: 12px;
-		color: #ffffff;
-		float: left;
-		margin-left: 0px;
+.playListFooter__playListMenu_content__centralPanel__onAir {
 }
 
+.playListFooter__playListMenu_content__centralPanel__onAir_title {
+	font-family: Arial;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	margin-left: 0px;
+}
 
-
-.playListFooter__playListMenu_content__centralPanel__onAir_songName{
+.playListFooter__playListMenu_content__centralPanel__onAir_songName {
 	font-family: Arial;
 	font-size: 12px;
 	color: #ffffff;
@@ -947,22 +833,17 @@ align-items: center;
 	max-width: 100px;
 }
 
+@media screen and (max-width: 430px) {
 
 
+	.playListFooter {
+		min-width: 430px;
+		display: block;
+	}
 
-@media screen and (max-width: 430px){
-
-
-.playListFooter{
-	
-min-width: 430px;
-display: block;
-}
-
-.playListFooter__playListMenu_content__centralPanel{
+	.playListFooter__playListMenu_content__centralPanel {
 		min-width: 430px;
 		height: 105px;
-		
 		margin-top: 10px;
 		background-color: rgba(0,0,0,0);
 		display: flex;
@@ -970,29 +851,26 @@ display: block;
 		align-items: center;
 		margin-left: 0;
 		z-index: 2;
-}
+	}
 
+	.playListFooter__playListMenu_content__centralPanel__logo {
+		min-width: 128px;
+		height: 82px;
+		background-image: url("../images/navigationMenu__menuLine__centralPanel__logo.png");
+		display: none;
+		float: left;
+		margin-left: 47px;
+		align-items: center;
+	}
 
+	.playListFooter__playListMenu_content__centralPanel__player {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-left: 14px;
+	}
 
-.playListFooter__playListMenu_content__centralPanel__logo{
-	min-width: 128px;
-	height: 82px;
-	background-image: url("../images/navigationMenu__menuLine__centralPanel__logo.png");
-	display: none;
-	float: left;
-	margin-left: 47px;
-	align-items: center;
-}
-
-.playListFooter__playListMenu_content__centralPanel__player{
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-left: 14px;
-}
-
-
-.playListFooter__playListMenu_content__centralPanel__player__playButton{
+	.playListFooter__playListMenu_content__centralPanel__player__playButton {
 		min-width: 24px;
 		height: 25px;
 		cursor: pointer;
@@ -1001,77 +879,41 @@ display: block;
 		background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton.png');
 		position: relative;
 		bottom: 5px;
+	}
+
+	.playListFooter__playListMenu_content__centralPanel__player__playButton:hover {
+		min-width: 24px;
+		height: 25px;
+		cursor: pointer;
+		float: left;
+		margin-left: 8px;
+		background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton-hover.png');
+		position: relative;
+		bottom: 5px;
+	}
+
+	.playListFooter__playListMenu_content__centralPanel__onAir_songName {
+		font-family: Arial;
+		font-size: 12px;
+		color: #ffffff;
+		float: left;
+		margin-left: 5px;
+		max-width: 134px;
+	}
 }
 
-
-.playListFooter__playListMenu_content__centralPanel__onAir_songName{
-	font-family: Arial;
-	font-size: 12px;
-	color: #ffffff;
-	float: left;
-	margin-left: 5px;
-	max-width: 134px;
-}
-
-
-
-}
-
-
-.playListFooter-closed{
+.playListFooter-closed {
 	height: 40px;
 	z-index: 4;
 }
 
-
-
-.playListFooter-open{
+.playListFooter-open {
 	height: 100%;
 }
 
-
-
-.playListFooter__playListMenu_content-hiden{
+.playListFooter__playListMenu_content-hiden {
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1105,30 +947,25 @@ display: block;
 		margin-left: 47px;
 	}
 
+	.navigationMenu__menuLine-news__wrapper {
+		position: relative;
+		max-width: 429px;
+		height: 105px;
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: 47px;
+	}
 
-	.navigationMenu__menuLine-news__wrapper{
-	position: relative;
-    min-width: 429px;
-    height: 105px;
-    position: relative;
-   
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   	margin-left: 47px;
-    
-}
-
-		.navigationMenu__menuLine__centralPanel-news {
+	.navigationMenu__menuLine__centralPanel-news {
 		width: 429px;
 		height: 105px;
-		
 		position: relative;
 		background-color: rgba(0,0,0,.8);
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
-		
 	}
 }
 
@@ -1150,7 +987,6 @@ display: block;
 		top: 0px;
 		float: left;
 		position: relative;
-		
 	}
 
 	.navigationMenu__menuLine__socialNetworks:last-child {
@@ -1176,18 +1012,16 @@ display: block;
 		bottom: 5px;
 	}
 
-
 	.navigationMenu__menuLine__centralPanel__player__playButton:hover {
-	width: 24px;
-	height: 25px;
-	cursor: pointer;
-	float: left;
-	margin-left: 15px;
-	position: relative;
+		width: 24px;
+		height: 25px;
+		cursor: pointer;
+		float: left;
+		margin-left: 15px;
+		position: relative;
 		bottom: 5px;
-
-	background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton-hover.png');
-}
+		background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton-hover.png');
+	}
 
 	.navigationMenu__menuLine__centralPanel__onAir_songName {
 		font-family: Arial;
@@ -1215,36 +1049,31 @@ display: block;
 		margin-left: 47px;
 	}
 
+	.navigationMenu__menuLine-news__wrapper {
+		position: relative;
+		min-width: 429px;
+		height: 105px;
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: 47px;
+	}
 
-	.navigationMenu__menuLine-news__wrapper{
-	position: relative;
-    min-width: 429px;
-    height: 105px;
-    position: relative;
-   
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   	margin-left: 47px;
-    
-}
 	.navigationMenu__menuLine__centralPanel-news {
-	min-width: 429px;
-	height: 105px;
-	position: relative;
-	background-color: rgba(0,0,0,.8);
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	
-	
-}
+		min-width: 429px;
+		height: 105px;
+		position: relative;
+		background-color: rgba(0,0,0,.8);
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
 
 	.navigationMenu__menuLine__centralPanel__playListMenu__title.state-opened {
 		z-index: 27;
 		background: white;
 	}
-
 
 	.navigationMenu__menuLine__centralPanel__playListMenu__title-news.state-opened {
 		z-index: 27;
@@ -1269,6 +1098,7 @@ display: block;
 		transition: all 0.5s;
 		animation-duration: 0.5s;
 	}
+
 	.navigationMenu__menuLine-news {
 		display: flex;
 		width: 100%;
@@ -1292,20 +1122,17 @@ display: block;
 		align-items: center;
 	}
 
-	.navigationMenu__menuLine-news__wrapper{
-	position: relative;
-    min-width: 429px;
-    height: 105px;
-    position: relative;
-   
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
-    
-}
+	.navigationMenu__menuLine-news__wrapper {
+		position: relative;
+		min-width: 429px;
+		height: 105px;
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
 
-		.navigationMenu__menuLine-news {
+	.navigationMenu__menuLine-news {
 		display: flex;
 		width: 1000px;
 		height: 105px;
@@ -1337,21 +1164,19 @@ display: block;
 		top: 626px;
 	}
 
+	.navigationMenu__menuLine-news__wrapper {
+		position: relative;
+		min-width: 429px;
+		height: 105px;
+		position: absolute;
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: 0px;
+	}
 
-	.navigationMenu__menuLine-news__wrapper{
-	position: relative;
-    min-width: 429px;
-    height: 105px;
-   position: absolute;
-   width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   	margin-left: 0px;
-    
-}
-
-		.navigationMenu__menuLine__centralPanel-news {
+	.navigationMenu__menuLine__centralPanel-news {
 		min-width: 429px;
 		height: 105px;
 		margin-left: 0px;
@@ -1394,7 +1219,6 @@ display: block;
 		float: left;
 		margin-left: 9px;
 		background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton-hover.png');
-
 		position: relative;
 		bottom: 5px;
 	}
@@ -1453,64 +1277,46 @@ display: block;
 		width: 70%;
 		justify-content: flex-start;
 		align-content: flex-start;
-		
 		font-weight: bold;
 		margin-left: 47px;
 	}
 
-
 	.navigationMenu__menuLine__centralPanel__radioTitle {
-    position: absolute;
-    top: -148px;
-    left: auto;
-    display: flex;
-    flex-direction: column;
+		position: absolute;
+		top: -148px;
+		left: auto;
+		display: flex;
+		flex-direction: column;
 	}
 
-	.navigationMenu__menuLine__centralPanel__radioTitle__city{
+	.navigationMenu__menuLine__centralPanel__radioTitle__city {
 		align-self: center;
 	}
 
+	.playListFooter {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		z-index: 4;
+		display: block;
+		justify-content: center;
+	}
 
+	.navigationMenu__menuLine__menu__rightMenu-black {
+		font-family: Open Sans Semibold;
+		color: #000000;
+		text-transform: uppercase;
+		font-size: 11pt;
+		margin-left: 60px;
+	}
 
-	.playListFooter{
-	
-width: 100%;
-height: 100%;
-position: fixed;
-bottom: 0px;
-left: 0px;
-z-index: 4;
-display: block;
-justify-content: center;
-
-}
-
-.navigationMenu__menuLine__menu__rightMenu-black {
-    font-family: Open Sans Semibold;
-    color: #000000;
-    text-transform: uppercase;
-    font-size: 11pt;
-    margin-left: 60px;
-}
-
-
-
-.playListFooter__playListMenu_content__centralPanel__onAir {
-
-position: relative;
-    top: -4px;
-    left: 4px;
-
-
-	
-}
-
-
-
-
-
-
+	.playListFooter__playListMenu_content__centralPanel__onAir {
+		position: relative;
+		top: -4px;
+		left: 4px;
+	}
 }
 
 @media  (max-width: 491px) {
@@ -1534,8 +1340,6 @@ position: relative;
 		align-items: center;
 	}
 
-
-
 	.navigationMenu__menuLine-news {
 		display: flex;
 		width: 430px;
@@ -1558,7 +1362,6 @@ position: relative;
 		margin-left: 0;
 	}
 
-
 	.navigationMenu__menuLine__centralPanel-news {
 		min-width: 430px;
 		height: 105px;
@@ -1570,9 +1373,7 @@ position: relative;
 		align-items: center;
 		margin-left: 0;
 		z-index: 2;
-		
 	}
-
 
 	.navigationMenu__menuLine__socialNetworks {
 		float: right;
@@ -1580,20 +1381,18 @@ position: relative;
 		position: absolute;
 		top: 90px;
 		right: 7px;
-
 	}
 
 	.navigationMenu__menuLine__menu__mainMenu__content {
 		position: fixed;
 		left: 0;
 		right: 0;
-		
 		background-color: #dd161d;
 		display: flex;
 		flex-direction: row;
 		width: 430px;
 		min-height: 147px;
-		z-index: 1;
+		z-index: 2;
 		padding: 45px 40px 0 45px;
 		padding-top: 45px;
 		box-sizing: border-box;
@@ -1642,12 +1441,12 @@ position: relative;
 		margin-left: 5%;
 	}
 
-    .navigationMenu__menuLine__menu__rightMenu-black {
-    font-family: Open Sans Semibold;
-    color: #000000;
-    text-transform: uppercase;
-    font-size: 11pt;
-    margin-left: 13%;
+	.navigationMenu__menuLine__menu__rightMenu-black {
+		font-family: Open Sans Semibold;
+		color: #000000;
+		text-transform: uppercase;
+		font-size: 11pt;
+		margin-left: 13%;
 	}
 
 	.navigationMenu__menuLine__centralPanel__player {
@@ -1690,6 +1489,7 @@ position: relative;
 		position: relative;
 		bottom: 5px;
 	}
+
 	.navigationMenu__menuLine__centralPanel__player__playButton:hover {
 		min-width: 24px;
 		height: 25px;
@@ -1697,46 +1497,42 @@ position: relative;
 		float: left;
 		margin-left: 8px;
 		background-image: url('../images/navigationMenu__menuLine__centralPanel__player__playButton-hover.png');
-
 		position: relative;
 		bottom: 5px;
 	}
-
 
 	.photoSlider__mobile__bg__mobileLogo {
 		display: block;
 		margin-bottom: 154px;
 	}
+
 	.navigationMenu__menuLine__centralPanel__radioTitle {
-	    position: absolute;
-	    top: -131px;
-	    left: 22%;
-	    display: flex;
-	    flex-direction: column;
+		position: absolute;
+		top: -131px;
+		left: 22%;
+		display: flex;
+		flex-direction: column;
 	}
 
-
 	.navigationMenu__menuLine__centralPanel__radioTitle__radioName {
-	    font-family: OpenSans;
-	    color: #ffffff;
-	    width: auto;
-	    font-size: 30px;
-	    font-weight: 700;
-	    letter-spacing: 2px;
+		font-family: OpenSans;
+		color: #ffffff;
+		width: auto;
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: 2px;
 	}
 
 	.navigationMenu__menuLine__centralPanel__radioTitle__city {
-	    font-family: OpenSans;
-	    color: #ffffff;
-	    width: auto;
-	    font-size: 17px;
-	    font-weight: 700;
-	    letter-spacing: 1px;
-	    margin-top: 10px;
-	    align-self: center;
+		font-family: OpenSans;
+		color: #ffffff;
+		width: auto;
+		font-size: 17px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		margin-top: 10px;
+		align-self: center;
 	}
-
-
 }
 
 
@@ -1745,21 +1541,29 @@ position: relative;
 /********Navigation end*******/
 
 
-.playListFooter-closed{
+.playListFooter-closed {
 	height: 40px;
 	z-index: 4;
 }
 
-
-
-.playListFooter-open{
+.playListFooter-open {
 	height: 100%;
 }
 
-
-
-.playListFooter__playListMenu_content-hiden{
+.playListFooter__playListMenu_content-hiden {
 	display: none;
 	transition: all 0.7s;
 }
 
+
+
+
+@media (max-width: 589px){
+
+
+.playListFooter__playListMenu_content__centralPanel__onAir {
+    position: relative;
+    top: 0px;
+    left: 4px;
+}
+}
