@@ -25,11 +25,14 @@
 body {
 	overflow: auto;
 	height: 100%;
+	max-width: 1920px;
+		margin: 0 auto;
 }
 
 html{
 
 	height: 100%;
+
 
 }
 
@@ -50,7 +53,11 @@ html{
 /********slider end*******/
 
 
-
+.scrollme{
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+}
 
 
 

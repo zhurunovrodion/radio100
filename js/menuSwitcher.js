@@ -42,7 +42,9 @@ function onMainMenuButtonClick(e){
 		
 		$menuElement.removeClass('state-closed');
 		$menuElement.addClass('state-opened');
+	
 	}else{
+		
 		$menuButton.addClass('state-closed');
 		$menuButton.removeClass('state-opened');
 		$menuButton.removeClass('active');
@@ -184,12 +186,13 @@ function onPlayListMenuButtonClickFooter(e){
 			$('.navigationMenu__menuLine__menu__mainMenu').addClass('state-closed');
 			$('.navigationMenu__menuLine__menu__mainMenu').removeClass('active');
 		
-		 $menuElement_content.removeClass('bounceOut');
-		$parent_menuElement.removeClass('playListFooter-closed');
+		 $menuElement_content.removeClass('slideOutDown');
+		$parent_menuElement.removeClass('playListFooter-closed'); 
 		 $menuElement_content.removeClass('playListFooter__playListMenu_content-hiden');
 		  $menuElement_content.addClass('animated');
-		    $menuElement_content.addClass('fadeInUp');
-		 $menuButton.find('.playListFooter__playListMenu__title__text').fadeOut(200, function() {$menuButton_content.html('<div class="navigationMenu__menuLine__menu__mainMenu state-opened animated flipInX active cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>');
+		    $menuElement_content.addClass('slideInUp');
+		    $menuButton.find('.playListFooter__playListMenu__title__text').addClass('animated slideOutUp');
+		 $menuButton.find('.playListFooter__playListMenu__title__text').fadeOut(200, function() {$menuButton_content.html('<div class="navigationMenu__menuLine__menu__mainMenu state-opened animated slideInUp active cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>');
 	 });
 			 
 	 		
@@ -198,31 +201,108 @@ function onPlayListMenuButtonClickFooter(e){
 
 		
 	}else{
-			 
+			  $menuElement_content.removeClass('slideInUp');
+		  $menuElement_content.addClass('slideOutDown');
+		  $menuButton_content.html('<div class="navigationMenu__menuLine__menu__mainMenu state-opened animated slideOutDown active cmn-toggle-switch cmn-toggle-switch__htx"> <span></span> </div>');
+		  window.setTimeout(function(){
+		  	  $menuElement_content.addClass('playListFooter__playListMenu_content-hiden');
+			  $parent_menuElement.addClass('playListFooter-closed');
+			  
+			   window.setTimeout(function(){
+			   		  $menuButton_content.html('<span class="playListFooter__playListMenu__title__text"><span>посмотреть плейлист эфира</span></span')
+			   		  					 .find('span').hide().fadeIn(200);
+			   }, 50);
 			
-			 $menuElement_content.removeClass('fadeInUp');
-		  $menuElement_content.addClass('bounceOut');
-		$parent_menuElement.addClass('playListFooter-closed');
-		$menuElement_content.addClass('playListFooter__playListMenu_content-hiden');
-
-		$menuButton_content.fadeIn(5000, function(){
-			$menuButton_content.html('<span class="playListFooter__playListMenu__title__text">посмотреть плейлист эфира</span');
-		});
-		/*$menuButton.find('.playListFooter__playListMenu__title__text').fadeOut(1000);*/
-		
-		
-	 		
-	 
-
-
+		  }, 400);
+			
+			
 	}
 }
 
-/*
-fuction doStickMenu(){
+
+function doStickMenuHandler(){
 	$stickElement=$('.navigationMenu__menuLine__menu__mainMenu');
 	$win_w = $(window).width();
 	if ($win_w < 1000 ){
-		$stickElement.addClass('sticker');
-	}
+				$stickElement.addClass('sticker');
+				
+			}else{
+
+				$stickElement.removeClass('sticker');
+
+			}
+	$(window).on('resize', function(){
+		$win_w = $(window).width();
+			console.log('width = '+$win_w);
+			if ($win_w < 1000 ){
+				$stickElement.addClass('sticker');
+
+			}else{
+
+				$stickElement.removeClass('sticker');
+
+			}
+	});
+
+}
+
+
+function doStickMenuHandlerScroll(){
+	$(window).scroll(function() {
+			  var $stickElement=$('.navigationMenu__menuLine__menu__mainMenu');
+			 var $scrollLength = $(window).scrollTop();
+			 console.log('scrollLenth ='+ $scrollLength);
+			 if($stickElement.is('.sticker')){
+				if ($scrollLength > 40){
+					if($stickElement.is('.state-opened')){
+						$stickElement.removeClass('sticker-scroll');
+					}else{
+					$stickElement.addClass('sticker-scroll');
+					
+					}
+				}else{
+
+
+					
+						$stickElement.removeClass('sticker-scroll');
+				}
+			}
+		});
+	
+}
+
+
+function validatePlayList(){
+	jQuery(function($) {
+		$.mask.definitions['H'] = '[012]';
+		$.mask.definitions['M'] = '[012345]';
+		$('.eITDbegintime').mask('H9:M9');
+		$('.eITDendtime').mask('H9:M9');
+		 
+	});
+}
+
+/*
+function doStickMenuHandlerScroll(){
+	$(window).scroll(function() {
+			  var $stickElement=$('.navigationMenu__menuLine__menu__mainMenu');
+			 var $scrollLength = $(window).scrollTop();
+			 console.log('scrollLenth ='+ $scrollLength);
+			 if($stickElement.is('.state-opened')){
+			 	if ($scrollLength > 40){
+					if($stickElement.is('.state-opened')){
+						$stickElement.removeClass('sticker-scroll');
+					}else{
+					$stickElement.addClass('sticker-scroll');
+					
+					}
+				}else{
+
+
+					
+						$stickElement.removeClass('sticker-scroll');
+				}
+			}
+		});
+	
 }*/

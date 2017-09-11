@@ -9,7 +9,10 @@ function initialize(){
 	addPlayListMenuButtonHandlers();
 	addPlayListMenuButtonHandlersNews();
 	deleteNewsTitleOnHover();
-	addPlayListMenuButtonHandlersFooter()
+	addPlayListMenuButtonHandlersFooter();
+	doStickMenuHandler(); 
+	doStickMenuHandlerScroll();
+	validatePlayList();
 	/*doStickMenu();*/
 	
 }

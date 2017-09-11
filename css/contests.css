@@ -330,6 +330,7 @@
 		height: 372px;
 		top: 118px;
 		width: 100%;
+		left: 0;
 	}
 }
 
@@ -427,6 +428,7 @@
 		overflow: hidden;
 		height: 372px;
 		top: 118px;
+		left:0;
 	}
 
 	.contests__info__title {

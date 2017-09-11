@@ -31,6 +31,7 @@
 	width: 333px;
 	height: 535px;
 	z-index: 1;
+	left:0;
 }
 
 .contacts__headerTitle_info_text {
