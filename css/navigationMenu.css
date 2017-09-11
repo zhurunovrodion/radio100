@@ -1459,7 +1459,7 @@
 	.navigationMenu__menuLine__menu {
 		float: left;
 		min-width: 379px;
-		margin-left: 35px;
+		margin-left: 0px;
 		position: relative;
 		display: flex;
 		align-items: center;
