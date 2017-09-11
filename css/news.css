@@ -394,7 +394,7 @@
      font-family: OpenSans;
     color: #868686;
     font-size: 14px;
-    max-width: 459px;
+   /* max-width: 459px;*/
     line-height: 26px;
 margin-top: 63px;
 margin-bottom: 30px;
@@ -512,7 +512,7 @@ margin-right: 0px;
 	}
 
 		.showNews__content{
-	max-width: 848px;
+	max-width: 100%;
    /* outline: 1px solid blue;*/
     margin-right: 0px;
     margin-left: 47px;
