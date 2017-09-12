@@ -1,404 +1,347 @@
 <!DOCTYPE HTML>
 <html>
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Новости Радио 100FM</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
-	<meta name="viewport" content="width=device-width">
-	<script src="js/datepicker.min.js"></script>
-	<script src="js/drawMap.js"></script>
-	<script src="js/menuSwitcher.js"></script>
-	<script src="js/masked-input.js"></script>
-	<script src="js/main.js"></script>
-	<script type="text/javascript" src="js/jquery.stickr.js">
-		
-	</script>
-
-
-
-
-	<script src="js/jquery.sticky.js"></script>
-	
-	
-</head>
-
-<body class="all">
-	<div  class="playListFooter playListFooter-closed">
-
-
-		<div class="playListFooter__playListMenu_content playListFooter__playListMenu_content-hiden">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="playListFooter__playListMenu_content__centralPanel">
-					<div class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
-						<ul class="navigationMenu__menuLine__menu__mainMenu__content__list">
-							<li><a href="#">о нас</a></li>
-							<li><a href="#">ведущие</a></li>
-							<li><a href="#">редакция</a></li>
-							<li><a href="#">реклама</a></li>
-							<li><a href="#">конкурсы</a></li>
-							<li><a href="#">программы</a></li>
-							<li><a href="#">музыка</a></li>
-						</ul>
-					</div>
-					<div class="playListFooter__playListMenu_content__centralPanel__logo"><a href="/radio100"> <img src="images/navigationMenu__menuLine__centralPanel__logo.png"></a> </div>
-					<div class="playListFooter__playListMenu_content__centralPanel__player">
-						<div class="playListFooter__playListMenu_content__centralPanel__player__fmFrequency"> <img src="images/fm.png"> </div>
-						<div class="playListFooter__playListMenu_content__centralPanel__player__playButton">
-							<a href="#"></a>
-						</div>
-						<div class="playListFooter__playListMenu_content__centralPanel__onAir">
-							<div class="playListFooter__playListMenu_content__centralPanel__onAir_title">
-								<p>сейчас в эфире: </p>
-							</div>
-							<div class="playListFooter__playListMenu_content__centralPanel__onAir_songName">
-								<p>
-									<marquee>Barbara Streisand - Memory</marquee>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					
-				</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-							<form method="post" class="playListFooter__playListMenu_content_dateForm">
-								<div class="playListFooter__playListMenu_content_dateForm__wrapper">
-									<div class="playListFooter__playListMenu_content_dateForm_textBlocks">
-										<p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">Дата:
-											<input type="text" class="datepicker-here playListFooter__playListMenu_content_dateForm_textBlocks_dmy"> </p>
-										<p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">от
-											<input id="eITDbegintime" type="text" class="playListFooter__playListMenu_content_dateForm_textBlocks_hm" />
-											<p>
-												<p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">до
-													<input id="eITDendtime" type="text" class="playListFooter__playListMenu_content_dateForm_textBlocks_hm" /> </p>
-									</div>
-									<div class="playListFooter__playListMenu_content_dateForm_buttonBlocks">
-										<p class="playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton">ПОКАЗАТЬ</p>
-									</div>
-								</div>
-							</form>
-							<div class="playListFooter__playListMenu_content_songList">
-								<ul class="playListFooter__playListMenu_content_songList_list">
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:05</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:09</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:13</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:16</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:21</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:05</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:09</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:13</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:16</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
-									</li>
-									<li class="playListFooter__playListMenu_content_songList_list_element">
-										<p class="playListFooter__playListMenu_content_songList_list_date">11:21</p>
-										<p class="playListFooter__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-		<div class="playListFooter__playListMenu">
-
-					<div class="playListFooter__playListMenu__title">
-					 <span class="playListFooter__playListMenu__title__text">посмотреть плейлист эфира</span>
-					</div>
-
-		</div>
-
-	</div>
-	<header>
-
-		<nav class="navigationMenu">
-			
-			<div class="navigationMenu__menuLine-news">
-			<div class="navigationMenu__menuLine-news__wrapper">
-				<div  class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
-						<ul class="navigationMenu__menuLine__menu__mainMenu__content__list">
-							<li><a href="#">о нас</a></li>
-							<li><a href="#">ведущие</a></li>
-							<li><a href="#">редакция</a></li>
-							<li><a href="#">реклама</a></li>
-							<li><a href="#">конкурсы</a></li>
-							<li><a href="#">программы</a></li>
-							<li><a href="#">музыка</a></li>
-						</ul>
-					</div>
-				<div class="navigationMenu__menuLine__centralPanel-news">
-					
-					<div class="navigationMenu__menuLine__centralPanel__logo"> <img src="images/navigationMenu__menuLine__centralPanel__logo.png"> </div>
-					<div class="navigationMenu__menuLine__centralPanel__player">
-						<div class="navigationMenu__menuLine__centralPanel__player__fmFrequency"> <img src="images/fm.png"> </div>
-						<div class="navigationMenu__menuLine__centralPanel__player__playButton">
-							<a href="#"></a>
-						</div>
-						<div class="navigationMenu__menuLine__centralPanel__onAir">
-							<div class="navigationMenu__menuLine__centralPanel__onAir_title">
-								<p>сейчас в эфире: </p>
-							</div>
-							<div class="navigationMenu__menuLine__centralPanel__onAir_songName">
-								<p>
-									<marquee>Barbara Streisand - Memory</marquee>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="navigationMenu__menuLine__centralPanel__playListMenu">
-						<div class="navigationMenu__menuLine__centralPanel__playListMenu__title-news state-closed"> <span class="navigationMenu__menuLine__centralPanel__playListMenu__title__text">
-									посмотреть плейлист эфира
-								</span> </div>
-						<div class="navigationMenu__menuLine__centralPanel__playListMenu_content state-closed">
-							<form method="post" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm">
-								<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm__wrapper">
-									<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">Дата:
-											<input type="text" class="datepicker-here navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_dmy"> </p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">от
-											<input id="eITDbegintime" type="text" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm" />
-											<p>
-												<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">до
-													<input id="eITDendtime" type="text" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm" /> </p>
-									</div>
-									<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton">ПОКАЗАТЬ</p>
-									</div>
-								</div>
-							</form>
-							<div class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList">
-								<ul class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list">
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:05</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:09</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:13</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:16</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:21</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:23</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> TITIYO - COME ALONG</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:26</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Michael Buble - Something Stupid (feat. Reese Witherspoon)</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:31</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> NANA - I REMEMBER THE TIME</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:35</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Ornella Vanoni - L'Appuntamento</p>
-									</li>
-									<li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:40</p>
-										<p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Gato Barbieri - Blue Eyes</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-
-				</div>
-				<div  class="navigationMenu__menuLine__menu__wrapper">
-					<div class="navigationMenu__menuLine__menu">
-					
-						<div  class="  navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch   cmn-toggle-switch__htx cmn-toggle-switch-news"> <span></span> </div>
-						<div class="navigationMenu__menuLine__menu__rightMenu navigationMenu__menuLine__menu__rightMenu-black">
-							<ul>
-								<li><a href="#">Реклама</a></li>
-								<li><a href="#">Конкурсы</a></li>
-								<li><a href="#">Музыка</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="navigationMenu__menuLine__socialNetworks">
-						<ul>
-							<a href="#">
-								<li class="navigationMenu__menuLine__socialNetworks__vk-black"></li>
-							</a>
-							<a href="#">
-								<li class="navigationMenu__menuLine__socialNetworks__59play224-black"></li>
-							</a>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<main>
-	<section class="showNews">
-		<div class="showNews__content">
-			<div class="showNews__content__breadCrumb">
-				<ul class="showNews__content__breadCrumb__list">
-					<li class="showNews__content__breadCrumb__list__element"><a href="/radio100">радио 100</a></li>
-					<li class="showNews__content__breadCrumb__list__element"><a href="/radio100/news.html">новости</a></li>
-				</ul>
-			</div>
-			<div class="showNews__content__fullNewsBlock">
-				<div class="showNews__content__fullNewsBlock__newsTitle">
-					<div class="showNews__content__fullNewsBlock__newsTitle__titleText">
-						<p>Еврокомиссия запретила в странах Евросоюза производство и продажу пылесосов мощностью более 900 Вт</p>
-					</div>
-					<div class="showNews__content__fullNewsBlock__newsTitle__titleImage">
-						<img src="images/news_newsGrid_newsblock2.png"></div>
-				</div>
-				<div class="showNews__content__fullNewsBlock__newsTextblock">
-					<div class="showNews__content__fullNewsBlock__newsTextblock__date">
-						<p>11/07.2017</p>
-					</div>
-					<p class="showNews__content__fullNewsBlock__newsTextblock__text">
-						Еврокомиссия запретила в странах Евросоюза производство и продажу пылесосов мощностью более 900 Вт и уровнем шума выше 80 децибел. Запрет не коснется беспроводных пылесосов и тех устройств, что уже есть на складах розничных продавцов. Предполагается, что принятые меры сохранят значительное количество электроэнергии. К 2020 году, если верить подсчетам, будет сэкономлено 20 тераватт-часов в год. Это , равно количеству энергии, потребляемой домохозяйствами всей Бельгии. А атмосфера будет спасена от шести миллионов тонн углекислого газа, утверждают чиновники. Потребителей заверили, что уменьшение мощности пылесосов не скажется на качестве уборки, но время, потраченное на неё, может увеличиться.
-					</p>
-
-				</div>
-
-			</div>
-
-				
-			</div>
-		<div class="showNews__news__buttonMoreNews">
-			 <a class="news__buttonMoreNews_button" href="/radio100/news.html">больше новостей</a> </div>
-	</section>
-		
-		<section class="contests">
-			<div class="contests__headerTitle">
-				<p>Конкурсы на «радио 100» ↓</p>
-			</div>
-			<div class="contests__image-left"> </div>
-			<div class="contests__info-right">
-				<div class="contests__info__title">
-					<p>«Слушай и лети!» 2017</p>
-				</div>
-				<div class="contests__info__text">
-					<p>С 15 мая по 26 июня 2017 слушайте РАДИО 100 и участвуйте в акции «Слушай и лети!» 2017. 1 июля у вас есть шанс отправится в Москву на фестиваль «Усадьба Jazz», ставший культовым для многих ценителей джаза! Территория музея-усадьбы Архангельское соберет 18 коллективов: из России, США, Великобритании, Израиля, Грузии, Норвегии. Хотите попасть туда? Всё в ваших руках!</p>
-				</div>
-				<div class="contests__info__buttonShowMore"> <a href="#">узнать подробнее</a> </div>
-			</div>
-		</section>
-		
-		<section class="adv">
-			<div class="adv__headerTitle">
-				<p>реклама
-					<br> на «радио100»</p>
-			</div>
-			<div class="adv__buttonDwPrice">
-				<div class="adv__buttonDwPrice__redline"></div>
-				<p class="adv__buttonDwPrice_button">подробнее</p>
-			</div>
-		</section>
-		<section class="contacts">
-			<div class="contacts__headerTitle">
-				<p>наши контакты ↓</p>
-				<div class="contacts__headerTitle_info">
-					<div class="contacts__headerTitle_info_text">
-						<p class="contacts__headerTitle_info_text_title"> Челябинск, ул. Калинина, 21.
-							<br> +7 (351) 790 38 84
-							<br> <span class="contacts__headerTitle_info_text_title_adv">РЕКЛАМНАЯ СЛУЖБА</span>:
-							<br> +7 (351) 790 94 91
-							<br>
-							<br> </p>
-						<p class="contacts__headerTitle_info_text_whois"> ЗАО «Ассоциация «Канал ТВ».
-							<br> СМИ Сетевое издание "100 радио"
-							<br> Св-во о регистрации СМИ
-							<br> ЭЛ № ФС 77 – 69061 от 13 марта 2017 г.
-							<br> выдано Федеральной службой
-							<br> по надзору в сфере связи,
-							<br> информационных технологий
-							<br> и массовых коммуникаций
-							<br> </p>
-					</div>
-					<div class="contacts__headerTitle_info_owners">
-						<a href="https://www.domashniy.ru/" target="_blank"><img src="images/contacts__headerTitle_info_owners_Domashniy.png"></a>
-						<a href="http://www.telefakt.ru/" target="_blank"><img src="images/contacts__headerTitle_info_owners_westExpress.png"></a>
-					</div>
-				</div>
-			</div>
-			<div id="contacts__googleMap"> </div>
-		</section>
-	</main>
-	<footer>
-		<a href="http://flexites.org" target="_blank">
-			<div class="flexitesLogo"></div>
-		</a>
-	</footer>
-</body>
-
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Новости Радио 100FM</title>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdBOD79ERay6CMmna0Ft1aOHIq41ArQHY "></script>
+      <meta name="viewport" content="width=device-width">
+      <script src="js/datepicker.min.js"></script>
+      <script src="js/drawMap.js"></script>
+      <script src="js/menuSwitcher.js"></script>
+      <script src="js/masked-input.js"></script>
+      <script src="js/main.js"></script>
+      <script type="text/javascript" src="js/jquery.stickr.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+   </head>
+   <body class="all">
+      <div  class="playListFooter playListFooter-closed">
+         <div class="playListFooter__playListMenu_content playListFooter__playListMenu_content-hiden">
+            <div class="playListFooter__playListMenu_content__centralPanel">
+               <div class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
+                  <ul class="navigationMenu__menuLine__menu__mainMenu__content__list">
+                     <li><a href="#">о нас</a></li>
+                     <li><a href="#">ведущие</a></li>
+                     <li><a href="#">редакция</a></li>
+                     <li><a href="#">реклама</a></li>
+                     <li><a href="#">конкурсы</a></li>
+                     <li><a href="#">программы</a></li>
+                     <li><a href="#">музыка</a></li>
+                  </ul>
+               </div>
+               <div class="playListFooter__playListMenu_content__centralPanel__logo"><a href="/radio100"> <img src="images/navigationMenu__menuLine__centralPanel__logo.png"></a> </div>
+               <div class="playListFooter__playListMenu_content__centralPanel__player">
+                  <div class="playListFooter__playListMenu_content__centralPanel__player__fmFrequency"> <img src="images/fm.png"> </div>
+                  <div class="playListFooter__playListMenu_content__centralPanel__player__playButton">
+                     <a href="#"></a>
+                  </div>
+                  <div class="playListFooter__playListMenu_content__centralPanel__onAir">
+                     <div class="playListFooter__playListMenu_content__centralPanel__onAir_title">
+                        <p>сейчас в эфире: </p>
+                     </div>
+                     <div class="playListFooter__playListMenu_content__centralPanel__onAir_songName">
+                        <p>
+                           <marquee>Barbara Streisand - Memory</marquee>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <form method="post" class="playListFooter__playListMenu_content_dateForm">
+               <div class="playListFooter__playListMenu_content_dateForm__wrapper">
+                  <div class="playListFooter__playListMenu_content_dateForm_textBlocks">
+                     <p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">Дата:
+                        <input type="text" class="datepicker-here playListFooter__playListMenu_content_dateForm_textBlocks_dmy"> 
+                     </p>
+                     <p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">от
+                        <input id="eITDbegintime" type="text" class="playListFooter__playListMenu_content_dateForm_textBlocks_hm" />
+                     <p>
+                     <p class="playListFooter__playListMenu_content_dateForm_textBlocks_text">до
+                        <input id="eITDendtime" type="text" class="playListFooter__playListMenu_content_dateForm_textBlocks_hm" /> 
+                     </p>
+                  </div>
+                  <div class="playListFooter__playListMenu_content_dateForm_buttonBlocks">
+                     <p class="playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton">ПОКАЗАТЬ</p>
+                  </div>
+               </div>
+            </form>
+            <div class="playListFooter__playListMenu_content_songList">
+               <ul class="playListFooter__playListMenu_content_songList_list">
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:05</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:09</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:13</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:16</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:21</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:05</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:09</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:13</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:16</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
+                  </li>
+                  <li class="playListFooter__playListMenu_content_songList_list_element">
+                     <p class="playListFooter__playListMenu_content_songList_list_date">11:21</p>
+                     <p class="playListFooter__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="playListFooter__playListMenu">
+            <div class="playListFooter__playListMenu__title">
+               <span class="playListFooter__playListMenu__title__text">посмотреть плейлист эфира</span>
+            </div>
+         </div>
+      </div>
+      <header>
+         <nav class="navigationMenu">
+            <div class="navigationMenu__menuLine-news">
+               <div class="navigationMenu__menuLine-news__wrapper">
+                  <div  class="navigationMenu__menuLine__menu__mainMenu__content state-closed">
+                     <ul class="navigationMenu__menuLine__menu__mainMenu__content__list">
+                        <li><a href="#">о нас</a></li>
+                        <li><a href="#">ведущие</a></li>
+                        <li><a href="#">редакция</a></li>
+                        <li><a href="#">реклама</a></li>
+                        <li><a href="#">конкурсы</a></li>
+                        <li><a href="#">программы</a></li>
+                        <li><a href="#">музыка</a></li>
+                     </ul>
+                  </div>
+                  <div class="navigationMenu__menuLine__centralPanel-news">
+                     <div class="navigationMenu__menuLine__centralPanel__logo"> <img src="images/navigationMenu__menuLine__centralPanel__logo.png"> </div>
+                     <div class="navigationMenu__menuLine__centralPanel__player">
+                        <div class="navigationMenu__menuLine__centralPanel__player__fmFrequency"> <img src="images/fm.png"> </div>
+                        <div class="navigationMenu__menuLine__centralPanel__player__playButton">
+                           <a href="#"></a>
+                        </div>
+                        <div class="navigationMenu__menuLine__centralPanel__onAir">
+                           <div class="navigationMenu__menuLine__centralPanel__onAir_title">
+                              <p>сейчас в эфире: </p>
+                           </div>
+                           <div class="navigationMenu__menuLine__centralPanel__onAir_songName">
+                              <p>
+                                 <marquee>Barbara Streisand - Memory</marquee>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="navigationMenu__menuLine__centralPanel__playListMenu">
+                        <div class="navigationMenu__menuLine__centralPanel__playListMenu__title-news state-closed"> <span class="navigationMenu__menuLine__centralPanel__playListMenu__title__text">
+                           посмотреть плейлист эфира
+                           </span> 
+                        </div>
+                        <div class="navigationMenu__menuLine__centralPanel__playListMenu_content state-closed">
+                           <form method="post" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm">
+                              <div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm__wrapper">
+                                 <div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">Дата:
+                                       <input type="text" class="datepicker-here navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_dmy"> 
+                                    </p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">от
+                                       <input id="eITDbegintime" type="text" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm" />
+                                    <p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_text">до
+                                       <input id="eITDendtime" type="text" class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_textBlocks_hm" /> 
+                                    </p>
+                                 </div>
+                                 <div class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton">ПОКАЗАТЬ</p>
+                                 </div>
+                              </div>
+                           </form>
+                           <div class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList">
+                              <ul class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list">
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:05</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Nicole Kidman & Ewan McGregor - Come What May</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:09</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Roxette - Run To You</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:13</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Marcela Mangabeira - Poker Face</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:16</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Jay Sean - Words</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:21</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Beatles - Lady Madonna</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:23</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> TITIYO - COME ALONG</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:26</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Michael Buble - Something Stupid (feat. Reese Witherspoon)</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:31</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> NANA - I REMEMBER THE TIME</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:35</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Ornella Vanoni - L'Appuntamento</p>
+                                 </li>
+                                 <li class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_element">
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_date">11:40</p>
+                                    <p class="navigationMenu__menuLine__centralPanel__playListMenu_content_songList_list_songName"> Gato Barbieri - Blue Eyes</p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div  class="navigationMenu__menuLine__menu__wrapper">
+                  <div class="navigationMenu__menuLine__menu">
+                     <div  class="  navigationMenu__menuLine__menu__mainMenu state-closed cmn-toggle-switch   cmn-toggle-switch__htx cmn-toggle-switch-news"> <span></span> </div>
+                     <div class="navigationMenu__menuLine__menu__rightMenu navigationMenu__menuLine__menu__rightMenu-black">
+                        <ul>
+                           <li><a href="#">Реклама</a></li>
+                           <li><a href="#">Конкурсы</a></li>
+                           <li><a href="#">Музыка</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="navigationMenu__menuLine__socialNetworks">
+                     <ul>
+                        <a href="#">
+                           <li class="navigationMenu__menuLine__socialNetworks__vk-black"></li>
+                        </a>
+                        <a href="#">
+                           <li class="navigationMenu__menuLine__socialNetworks__59play224-black"></li>
+                        </a>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <section class="showNews">
+            <div class="showNews__content">
+               <div class="showNews__content__breadCrumb">
+                  <ul class="showNews__content__breadCrumb__list">
+                     <li class="showNews__content__breadCrumb__list__element"><a href="/radio100">радио 100</a></li>
+                     <li class="showNews__content__breadCrumb__list__element"><a href="/radio100/news.html">новости</a></li>
+                  </ul>
+               </div>
+               <div class="showNews__content__fullNewsBlock">
+                  <div class="showNews__content__fullNewsBlock__newsTitle">
+                     <div class="showNews__content__fullNewsBlock__newsTitle__titleText">
+                        <p>Еврокомиссия запретила в странах Евросоюза производство и продажу пылесосов мощностью более 900 Вт</p>
+                     </div>
+                     <div class="showNews__content__fullNewsBlock__newsTitle__titleImage">
+                        <img src="images/news_newsGrid_newsblock2.png">
+                     </div>
+                  </div>
+                  <div class="showNews__content__fullNewsBlock__newsTextblock">
+                     <div class="showNews__content__fullNewsBlock__newsTextblock__date">
+                        <p>11/07.2017</p>
+                     </div>
+                     <p class="showNews__content__fullNewsBlock__newsTextblock__text">
+                        Еврокомиссия запретила в странах Евросоюза производство и продажу пылесосов мощностью более 900 Вт и уровнем шума выше 80 децибел. Запрет не коснется беспроводных пылесосов и тех устройств, что уже есть на складах розничных продавцов. Предполагается, что принятые меры сохранят значительное количество электроэнергии. К 2020 году, если верить подсчетам, будет сэкономлено 20 тераватт-часов в год. Это , равно количеству энергии, потребляемой домохозяйствами всей Бельгии. А атмосфера будет спасена от шести миллионов тонн углекислого газа, утверждают чиновники. Потребителей заверили, что уменьшение мощности пылесосов не скажется на качестве уборки, но время, потраченное на неё, может увеличиться.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="showNews__news__buttonMoreNews">
+               <a class="news__buttonMoreNews_button" href="/radio100/news.html">больше новостей</a> 
+            </div>
+         </section>
+         <section class="contests">
+            <div class="contests__headerTitle">
+               <p>Конкурсы на «радио 100» ↓</p>
+            </div>
+            <div class="contests__image-left"> </div>
+            <div class="contests__info-right">
+               <div class="contests__info__title">
+                  <p>«Слушай и лети!» 2017</p>
+               </div>
+               <div class="contests__info__text">
+                  <p>С 15 мая по 26 июня 2017 слушайте РАДИО 100 и участвуйте в акции «Слушай и лети!» 2017. 1 июля у вас есть шанс отправится в Москву на фестиваль «Усадьба Jazz», ставший культовым для многих ценителей джаза! Территория музея-усадьбы Архангельское соберет 18 коллективов: из России, США, Великобритании, Израиля, Грузии, Норвегии. Хотите попасть туда? Всё в ваших руках!</p>
+               </div>
+               <div class="contests__info__buttonShowMore"> <a href="#">узнать подробнее</a> </div>
+            </div>
+         </section>
+         <section class="adv">
+            <div class="adv__headerTitle">
+               <p>реклама
+                  <br> на «радио100»
+               </p>
+            </div>
+            <div class="adv__buttonDwPrice">
+               <div class="adv__buttonDwPrice__redline"></div>
+               <p class="adv__buttonDwPrice_button">подробнее</p>
+            </div>
+         </section>
+         <section class="contacts">
+            <div class="contacts__headerTitle">
+               <p>наши контакты ↓</p>
+               <div class="contacts__headerTitle_info">
+                  <div class="contacts__headerTitle_info_text">
+                     <p class="contacts__headerTitle_info_text_title"> Челябинск, ул. Калинина, 21.
+                        <br> +7 (351) 790 38 84
+                        <br> <span class="contacts__headerTitle_info_text_title_adv">РЕКЛАМНАЯ СЛУЖБА</span>:
+                        <br> +7 (351) 790 94 91
+                        <br>
+                        <br> 
+                     </p>
+                     <p class="contacts__headerTitle_info_text_whois"> ЗАО «Ассоциация «Канал ТВ».
+                        <br> СМИ Сетевое издание "100 радио"
+                        <br> Св-во о регистрации СМИ
+                        <br> ЭЛ № ФС 77 – 69061 от 13 марта 2017 г.
+                        <br> выдано Федеральной службой
+                        <br> по надзору в сфере связи,
+                        <br> информационных технологий
+                        <br> и массовых коммуникаций
+                        <br> 
+                     </p>
+                  </div>
+                  <div class="contacts__headerTitle_info_owners">
+                     <a href="https://www.domashniy.ru/" target="_blank"><img src="images/contacts__headerTitle_info_owners_Domashniy.png"></a>
+                     <a href="http://www.telefakt.ru/" target="_blank"><img src="images/contacts__headerTitle_info_owners_westExpress.png"></a>
+                  </div>
+               </div>
+            </div>
+            <div id="contacts__googleMap"> </div>
+         </section>
+      </main>
+      <footer>
+         <a href="http://flexites.org" target="_blank">
+            <div class="flexitesLogo"></div>
+         </a>
+      </footer>
+   </body>
 </html>
