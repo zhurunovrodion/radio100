@@ -42,6 +42,7 @@ function onMainMenuButtonClick(e){
 		
 		$menuElement.removeClass('state-closed');
 		$menuElement.addClass('state-opened');
+
 	
 	}else{
 		
@@ -86,7 +87,7 @@ function onPlayListMenuButtonClick(e){
 		$menuElement.removeClass('state-closed');
 		//$menuElement.addClass('animated fadeInUp');
 		$menuElement.addClass('state-opened');
-		
+		$menuElement.addClass('animated bounceInUp');
 	
 
 		
@@ -104,7 +105,7 @@ function onPlayListMenuButtonClick(e){
 		
 		$menuButton.html('посмотреть плейлист эфира');
 		$menuElement.removeClass('state-opened');
-
+		$menuElement.removeClass('animated bounceInUp');
 
 	}
 }

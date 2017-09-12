@@ -143,7 +143,7 @@
 	}
 
 	.adv__headerTitle {
-		font-family: Open Sans Bold;
+		font-family: 'Open Sans Bold';
 		font-size: 30pt;
 		letter-spacing: 2px;
 		color: #ffffff;
@@ -177,7 +177,7 @@
 	}
 
 	.adv__headerTitle {
-		font-family: Open Sans Bold;
+		font-family: 'Open Sans Bold';
 		font-size: 28pt;
 		letter-spacing: 2px;
 		color: #ffffff;

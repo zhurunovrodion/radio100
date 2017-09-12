@@ -191,7 +191,7 @@
 .navigationMenu__menuLine__menu__mainMenu__content__list {
 	box-sizing: border-box;
 	display: flex;
-	font-family: Open Sans Semibold;
+	font-family: 'Open Sans Semibold';
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 11pt;
@@ -279,7 +279,7 @@
 }
 
 .navigationMenu__menuLine__menu__rightMenu {
-	font-family: Open Sans Semibold;
+	font-family: 'Open Sans Semibold';
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 11pt;
@@ -287,7 +287,7 @@
 }
 
 .navigationMenu__menuLine__menu__rightMenu-black {
-	font-family: Open Sans Semibold;
+	font-family: 'Open Sans Semibold';
 	color: #000000;
 	text-transform: uppercase;
 	font-size: 11pt;
@@ -325,36 +325,46 @@
 }
 
 .navigationMenu__menuLine__socialNetworks {
-	float: right;
-	flex: 1;
+	
 }
 
 .navigationMenu__menuLine__socialNetworks:last-child {
 	margin-right: 26px;
 }
 
+
+
+
 .navigationMenu__menuLine__socialNetworks li {
 	margin-left: 15px;
 }
 
+.navigationMenu__menuLine__socialNetworks__list{
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
 .navigationMenu__menuLine__socialNetworks__59play224 {
-	float: right;
+	
 	width: 19px;
 	height: 17px;
 	background-image: url(../images/triangle_logo.png);
 	background-repeat: no-repeat;
 }
 
+
+
 .navigationMenu__menuLine__socialNetworks__59play224-black {
 	background-image: url(../images/triangle_logo_black.png);
-	float: right;
+	
 	width: 19px;
 	height: 17px;
 	background-repeat: no-repeat;
 }
 
 .navigationMenu__menuLine__socialNetworks__vk {
-	float: right;
+	
 	width: 33px;
 	height: 19px;
 	background-image: url(../images/vk_logo.png);
@@ -362,7 +372,7 @@
 
 .navigationMenu__menuLine__socialNetworks__vk-black {
 	background-image: url(../images/vk_logo_black.png);
-	float: right;
+	
 	width: 33px;
 	height: 19px;
 	background-repeat: no-repeat;
@@ -472,7 +482,7 @@
 
 .navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton {
 	font-size: 11.5pt;
-	font-family: Open Sans Bold;
+	font-family: 'Open Sans Bold';
 	color: #ffffff;
 	cursor: pointer;
 	transition: all 0.5s;
@@ -483,7 +493,7 @@
 
 .navigationMenu__menuLine__centralPanel__playListMenu_content_dateForm_buttonBlocks_showButton:hover {
 	font-size: 11.5pt;
-	font-family: Open Sans Bold;
+	font-family: 'Open Sans Bold';
 	color: #ff1200;
 	cursor: pointer;
 	position: relative;
@@ -496,7 +506,7 @@
 	width: 100%;
 	min-height: 400px;
 	background-color: rgba(0,0,0,.7);
-	padding: left:0;
+	padding-left:0;
 	top: 43px;
 	border-top: 1px solid #ffffff;
 	transition: all 0.5s;
@@ -608,7 +618,7 @@
 
 .playListFooter__playListMenu__title {
 	color: #ffffff;
-	font-family: OpenSans;
+	font-family: 'OpenSans';
 	text-decoration: none;
 	height: 40px;
 	width: 100%;
@@ -632,7 +642,7 @@
 	width: 100%;
 	height: calc(100% - 40px);
 	background-color: rgba(0,0,0,.9);
-	padding: left:0;
+	padding-left:0;
 	border-top: 1px solid #ffffff;
 	transition: all 0.5s;
 	animation-duration: 0.5s;
@@ -710,7 +720,7 @@
 
 .playListFooter__playListMenu_content_dateForm_buttonBlocks_showButton {
 	font-size: 11.5pt;
-	font-family: Open Sans Bold;
+	font-family: 'Open Sans Bold';
 	color: #ffffff;
 	cursor: pointer;
 	transition: all 0.5s;
@@ -1093,7 +1103,7 @@
 		width: 100%;
 		min-height: 400px;
 		background-color: rgba(0,0,0,.9);
-		padding: left:0;
+		padding-left:0;
 		top: 43px;
 		border-top: 1px solid #ffffff;
 		transition: all 0.5s;
@@ -1199,7 +1209,7 @@
 		height: 105px;
 		background-color: rgba(0,0,0,.35);
 		position: absolute;
-		justify-content: start;
+		justify-content: flex-start;
 		align-items: center;
 	}
 
@@ -1278,7 +1288,7 @@
 	.navigationMenu__menuLine__menu__mainMenu__content__list {
 		box-sizing: border-box;
 		display: flex;
-		font-family: Open Sans Semibold;
+		font-family: 'Open Sans Semibold';
 		color: #ffffff;
 		text-transform: uppercase;
 		font-size: 11pt;
@@ -1293,7 +1303,9 @@
 	.navigationMenu__menuLine__centralPanel__radioTitle {
 		position: absolute;
 		top: -148px;
-		left: auto;
+		left: 0;
+		right: 0;
+		align-items: center;
 		display: flex;
 		flex-direction: column;
 	}
@@ -1314,7 +1326,7 @@
 	}
 
 	.navigationMenu__menuLine__menu__rightMenu-black {
-		font-family: Open Sans Semibold;
+		font-family: 'Open Sans Semibold';
 		color: #000000;
 		text-transform: uppercase;
 		font-size: 11pt;
@@ -1490,7 +1502,7 @@
 	}
 
 	.navigationMenu__menuLine__menu__rightMenu {
-		font-family: Open Sans Semibold;
+		font-family: 'Open Sans Semibold';
 		color: #ffffff;
 		text-transform: uppercase;
 		font-size: 11pt;
@@ -1498,7 +1510,7 @@
 	}
 
 	.navigationMenu__menuLine__menu__rightMenu-black {
-		font-family: Open Sans Semibold;
+		font-family: 'Open Sans Semibold';
 		color: #000000;
 		text-transform: uppercase;
 		font-size: 11pt;
@@ -1515,7 +1527,7 @@
 	.navigationMenu__menuLine__menu__mainMenu__content__list {
 		box-sizing: border-box;
 		display: flex;
-		font-family: Open Sans Semibold;
+		font-family: 'Open Sans Semibold';
 		color: #ffffff;
 		text-transform: uppercase;
 		font-size: 11pt;

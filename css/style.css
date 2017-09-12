@@ -6,7 +6,6 @@
 
 @import url(fonts.css);
 
-
 @import url(navigationMenu.css);
 
 @import url(contests.css);
@@ -25,7 +24,7 @@ body {
 	overflow: auto;
 	height: 100%;
 	max-width: 1920px;
-		margin: 0 auto;
+	margin: 0 auto;
 }
 
 html{
@@ -35,6 +34,10 @@ html{
 
 }
 
+header{
+	max-width: 1920px;
+	position: relative;
+}
 
 
 
@@ -106,3 +109,12 @@ html{
 		align-items: center;
 	}
 }
+
+
+
+
+
+@media screen and (min-width:0\0) {  
+    
+}
+

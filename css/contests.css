@@ -192,7 +192,7 @@
 	}
 }
 
-@media  (max-width: 1289px) {
+@media  (max-width: 1289px){
 
 	.contests__image-left {
 		flex: 1.14;
@@ -201,7 +201,7 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		//height: 435px;
+		
 	}
 }
 
@@ -302,7 +302,6 @@
 
 	.contests__image-left {
 		flex: 0;
-		//background-color: #44fa05;
 		background: url(../images/constests__image.png) no-repeat top;
 		background-size: auto auto;
 		background-size: auto auto;
